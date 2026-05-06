@@ -3,7 +3,7 @@ title: "Android Development with Kotlin: A Beginner’s Guide"
 date: 2024-01-30
 lastmod: 2025-06-24
 draft: false
-description: "Welcome to the exciting world of Android app development with Kotlin! This guide is designed for individuals with a background in web development and scripting languages like Python or PHP, who are"
+description: "Welcome to the exciting world of Android app development with Kotlin!"
 categories: ["Technology"]
 tags: []
 author: "Jonayed Hossan Gazi"
@@ -70,8 +70,9 @@ Every Android application must have an `AndroidManifest.xml` file in its root di
 
 
 Here’s a simple example of an `AndroidManifest.xml` file:
-[code] 
-    xml version="1.0" encoding="utf-8"?>
+
+```
+xml version="1.0" encoding="utf-8"?>
     <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         package="com.example.myapp">
     
@@ -95,8 +96,8 @@ Here’s a simple example of an `AndroidManifest.xml` file:
     
     manifest>
     
-[/code]
 
+```
 In this example, we have a single activity, `MainActivity`, which is declared as the main entry point of the app. The `intent-filter` tells the system that this activity should be added to the system’s app launcher.
 
 Understanding the `AndroidManifest.xml` file is fundamental to Android development. It’s the central place where you define the structure and metadata of your app, and it’s the first thing the Android system looks at when it wants to run your application [2].
@@ -125,7 +126,9 @@ Gradle uses a task-based approach, where each step in the build process is a ‘
      * **Module-level`build.gradle`**: Each module (e.g., your app module, library modules) has its own `build.gradle` file. This is where you configure module-specific settings, such as dependencies, `minSdkVersion`, `targetSdkVersion`, and build types.
   2. **Plugins** : Plugins extend Gradle’s capabilities by adding new tasks and configurations. The most important plugin for Android development is the `com.android.application` plugin (for app modules) or `com.android.library` plugin (for library modules), which is part of the Android Gradle Plugin (AGP).
   3. **Dependencies** : Android projects often rely on external libraries to provide functionality (e.g., networking, image loading, UI components). Gradle makes it easy to declare and manage these dependencies. You specify them in your module-level `build.gradle` file, and Gradle automatically downloads and includes them in your project. 
-[code]// Example of dependencies in a module-level build.gradle.kts file
+
+```
+// Example of dependencies in a module-level build.gradle.kts file
          dependencies {
              implementation("androidx.core:core-ktx:1.13.1")
              implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.2")
@@ -135,9 +138,9 @@ Gradle uses a task-based approach, where each step in the build process is a ‘
              // ... other dependencies
          }
          
-[/code]
 
-  4. **Build Variants** : Gradle allows you to create different versions of your app from a single codebase. This is achieved through build types (e.g., `debug`, `release`) and product flavors (e.g., `free`, `paid`). For example, a `debug` build might include logging and debugging tools, while a `release` build is optimized for performance and size.
+```
+4. **Build Variants** : Gradle allows you to create different versions of your app from a single codebase. This is achieved through build types (e.g., `debug`, `release`) and product flavors (e.g., `free`, `paid`). For example, a `debug` build might include logging and debugging tools, while a `release` build is optimized for performance and size.
 
 
 
@@ -183,8 +186,9 @@ An Activity goes through various states during its lifetime, from creation to de
 ### Declaring Activities in the Manifest:
 
 For the Android system to recognize and launch your Activities, you must declare them in your `AndroidManifest.xml` file within the `` element using the `` tag. The `android:name` attribute specifies the class name of your Activity. You can also define other attributes like `android:label` (the title displayed to the user) and `android:icon` (the icon for the Activity).
-[code] 
-    <activity
+
+```
+<activity
         android:name=".MainActivity"
         android:label="@string/app_name"
         android:exported="true">
@@ -194,8 +198,8 @@ For the Android system to recognize and launch your Activities, you must declare
         intent-filter>
     activity>
     
-[/code]
 
+```
 In this example, `MainActivity` is declared. The `android:exported="true"` attribute makes the activity available to other apps. The `intent-filter` with `android.intent.action.MAIN` and `android.intent.category.LAUNCHER` indicates that this Activity is the main entry point of the application and should appear in the device’s app launcher.
 
 Understanding Activities and their lifecycle is fundamental to building well-behaved and efficient Android applications. Proper management of the lifecycle ensures that your app behaves correctly when users navigate through it, when other apps interrupt it, and when the device’s configuration changes [4].
@@ -221,11 +225,13 @@ Android categorizes permissions into several types, each with a different level 
 ### The Workflow for Requesting Permissions:
 
   1. **Declare Permissions in the Manifest** : Before you can request any permission, you must first declare it in your `AndroidManifest.xml` file using the `` element. This informs the system and the user about the permissions your app might request. 
-[code]name="android.permission.CAMERA" />
-         
-[/code]
 
-  2. **Check for Existing Permissions** : Before requesting a runtime permission, you should always check if the user has already granted it to your app. You can do this using the `ContextCompat.checkSelfPermission()` method.
+```
+name="android.permission.CAMERA" />
+         
+
+```
+2. **Check for Existing Permissions** : Before requesting a runtime permission, you should always check if the user has already granted it to your app. You can do this using the `ContextCompat.checkSelfPermission()` method.
   3. **Request the Permission** : If the permission has not been granted, you should request it from the user. This is done by calling `ActivityCompat.requestPermissions()`. This will display a system dialog to the user, asking them to grant or deny the permission.
   4. **Handle the Permission Result** : After the user responds to the permission request, your app will receive a callback with the result. You need to override the `onRequestPermissionsResult()` method in your Activity to handle this result and proceed accordingly.
 
@@ -289,8 +295,9 @@ Android Studio organizes your project files in a specific structure. Here are so
 ### Step 4: Understand `MainActivity.kt` and `activity_main.xml`
 
 When you open `MainActivity.kt`, you’ll see something like this:
-[code] 
-    package com.example.myfirstapp
+
+```
+package com.example.myfirstapp
     
     import android.os.Bundle
     import androidx.activity.ComponentActivity
@@ -337,8 +344,8 @@ When you open `MainActivity.kt`, you’ll see something like this:
         }
     }
     
-[/code]
 
+```
 Let’s break down the key parts:
 
   * **`package com.example.myfirstapp`** : Declares the package name for this file.

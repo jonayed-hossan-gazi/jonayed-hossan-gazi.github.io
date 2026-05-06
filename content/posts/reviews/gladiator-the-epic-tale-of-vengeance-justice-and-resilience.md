@@ -3,8 +3,8 @@ title: "Gladiator – the Epic Tale of Vengeance, Justice, and Resilience"
 date: 2024-02-16
 lastmod: 2025-06-27
 draft: false
-description: "The Roman Empire, with its grandeur, intrigue, and brutal spectacles, has always fascinated me, and few films capture its essence as powerfully as Gladiator (2000). Directed by Ridley Scott, this c"
-categories: ["Technology"]
+description: "The Roman Empire, with its grandeur, intrigue, and brutal spectacles, has always fascinated me, and few films capture its essence as powerfully as Gladiator (2000)."
+categories: ["Reviews"]
 tags: ["gladiator", "movies"]
 author: "Jonayed Hossan Gazi"
 showToc: true

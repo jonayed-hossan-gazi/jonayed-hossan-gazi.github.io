@@ -38,20 +38,23 @@ Let’s dive into each method and explore how they can enhance your Wapka-powere
 The `url.encode()` method encodes a string according to RFC 3986, replacing non-alphanumeric characters (except `-_.~`) with a percent (%) sign followed by two hexadecimal digits. This ensures URLs are safe for transmission and compatible with web standards.
 
 **Syntax:**
-[code] 
-    url.encode(string ) : string
-[/code]
 
+```
+url.encode(string ) : string
+
+```
 **Example:**
-[code] 
-    url.encode("Wapka Is Awesome so do you!")
-[/code]
 
+```
+url.encode("Wapka Is Awesome so do you!")
+
+```
 **Output:**
-[code] 
-    Wapka%20Is%20Awesome%20so%20do%20you%21
-[/code]
 
+```
+Wapka%20Is%20Awesome%20so%20do%20you%21
+
+```
 **Use Case:** Use `url.encode()` when passing user input as URL parameters to prevent special characters from breaking the URL structure.
 
 ## 2\. url.decode(): Decoding URL-Encoded Strings
@@ -59,20 +62,23 @@ The `url.encode()` method encodes a string according to RFC 3986, replacing non-
 The `url.decode()` method reverses the encoding process, converting percent-encoded sequences back into their original characters.
 
 **Syntax:**
-[code] 
-    url.decode(string ) : string
-[/code]
 
+```
+url.decode(string ) : string
+
+```
 **Example:**
-[code] 
-    url.decode("Wapka%20Is%20Awesome%20so%20do%20you%21")
-[/code]
 
+```
+url.decode("Wapka%20Is%20Awesome%20so%20do%20you%21")
+
+```
 **Output:**
-[code] 
-    Wapka Is Awesome so do you!
-[/code]
 
+```
+Wapka Is Awesome so do you!
+
+```
 **Use Case:** Decode query parameters received from a URL to display user-friendly content on your site.
 
 ## 3\. url.parse(): Parsing URLs into Components
@@ -80,10 +86,11 @@ The `url.decode()` method reverses the encoding process, converting percent-enco
 The `url.parse()` method breaks down a URL into its components, such as scheme, host, port, path, query, and fragment. It returns an associative array with these components, making it easy to extract specific parts of a URL.
 
 **Syntax:**
-[code] 
-    url.parse(string ) : mix
-[/code]
 
+```
+url.parse(string ) : mix
+
+```
 **Return Values:**
 
   * `scheme`: e.g., http
@@ -94,16 +101,18 @@ The `url.parse()` method breaks down a URL into its components, such as scheme, 
 
 
 **Example:**
-[code] 
-    link = 'http://username:password@hostname:9090/path?arg=value#anchor';
+
+```
+link = 'http://username:password@hostname:9090/path?arg=value#anchor';
     url.parse(link).port
-[/code]
 
+```
 **Output:**
-[code] 
-    9090
-[/code]
 
+```
+9090
+
+```
 **Use Case:** Extract specific URL components, like the query string or port, to customize page behavior dynamically.
 
 ## 4\. url.build(): Generating URL-Encoded Query Strings
@@ -111,10 +120,11 @@ The `url.parse()` method breaks down a URL into its components, such as scheme, 
 The `url.build()` method creates a URL-encoded query string from an array or object. It supports various encoding types, including RFC 1738 and RFC 3986, allowing flexibility in how spaces and special characters are handled.
 
 **Syntax:**
-[code] 
-    url.build(data, numeric_prefix, arg_separator, encoding_type)
-[/code]
 
+```
+url.build(data, numeric_prefix, arg_separator, encoding_type)
+
+```
 **Parameters:**
 
   * `data`: Array or object containing query parameters.
@@ -143,10 +153,11 @@ The `url.redirect()` method enables seamless URL redirection, allowing you to gu
 The `url.map()` method maps URLs to specific resources, such as pages or callback functions, using wildcard patterns. It’s a powerful tool for routing requests efficiently.
 
 **Syntax:**
-[code] 
-    url.map(string <*pattern>, mix , string , bool , bool ) : bool
-[/code]
 
+```
+url.map(string <*pattern>, mix , string , bool , bool ) : bool
+
+```
 **Examples:**
 
   * Display a test message: `if url.map("/test") then server.send("Test success") end`
@@ -162,10 +173,11 @@ The `url.map()` method maps URLs to specific resources, such as pages or callbac
 The `url.rewrite()` method uses regex patterns to rewrite URLs, directing them to specific resources or triggering callbacks. It’s ideal for advanced URL manipulation and routing.
 
 **Syntax:**
-[code] 
-    url.rewrite(string <*pattern>, mix , string ) : bool
-[/code]
 
+```
+url.rewrite(string <*pattern>, mix , string ) : bool
+
+```
 **Examples:**
 
   * Simple rewrite: `if url.rewrite("/test") then server.send("Test success") end`

@@ -232,7 +232,7 @@ We’ll explore how each editor serves different needs, and why choosing the rig
 
 ✅ **Ideal Use:** Serious programming, server management, batch editing, writing scripts fast.
 
-describing your long-term use of it.
+
 
 * * *
 
@@ -340,7 +340,7 @@ Choosing the right text editor depends on your goal:
 
   * Working in terminals? **Nano** is friendly, **Vim** is powerful.
 
-  * For Android**QuickEdit** is _the_ tool that gives you desktop-class editing without the bulk
+  * For Android, **QuickEdit** is _the_ tool that gives you desktop-class editing without the bulk
 
 
 

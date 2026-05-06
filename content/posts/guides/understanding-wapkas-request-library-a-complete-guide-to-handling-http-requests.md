@@ -9,7 +9,6 @@ tags: ["cloud storage", "CMS", "dynamic web apps", "free SSL", "HTTP requests", 
 author: "Jonayed Hossan Gazi"
 showToc: true
 ---
-
 # Understanding Wapka’s Request Library: A Complete Guide to Handling HTTP Requests
 
 **Wapka** , a robust [web development platform and self-hosted CMS](https://wapka.org), empowers developers to create dynamic web applications with its powerful Lua-based scripting environment. One of its key components is the **Request Library** , which provides comprehensive access to HTTP request data. In this SEO-optimized guide, we’ll dive into the `req` table, its hierarchy, and practical use cases to help you harness its capabilities for building modern web applications on Wapka.
@@ -25,9 +24,10 @@ The `req` table contains all the information related to an HTTP request, organiz
 ### Request Table Hierarchy
 
 The `req` table is structured as follows:
-[/code]
-[code] 
-    {
+
+```
+```
+{
     method = < GET | POST | HEAD >,
     is_args =   < ? or blank>,
     args = string>,
