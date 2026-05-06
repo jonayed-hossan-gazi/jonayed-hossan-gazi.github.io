@@ -110,9 +110,10 @@ params:
 
   # ── Homepage ────────────────────────────────────
   homeInfoParams:
-    Title: "Decoding the Digital World"
+    Title: "Builder, writer, founder"
     Content: >
-      Thoughts and things — from AI and programming to philosophy and life lessons.
+      Founder of [Wapka](https://wapka.org) & [Zuna](https://zuna.id).
+      I write about AI, programming, hosting, and the philosophy of building things on the internet.
 
   # ── SEO ─────────────────────────────────────────
   # These drive OpenGraph + Twitter Cards + JSON-LD
@@ -189,19 +190,15 @@ menu:
       name: Posts
       url: /posts/
       weight: 10
-    - identifier: categories
-      name: Categories
-      url: /categories/
+    - identifier: projects
+      name: Projects
+      url: /projects/
       weight: 20
-    - identifier: tags
-      name: Tags
-      url: /tags/
+    - identifier: now
+      name: Now
+      url: /now/
       weight: 30
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 40
     - identifier: about
       name: About
       url: /about/
-      weight: 50
+      weight: 40

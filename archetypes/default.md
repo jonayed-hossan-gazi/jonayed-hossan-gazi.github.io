@@ -8,6 +8,7 @@ categories: []
 tags: []
 series: []
 author: "Jonayed Hossan Gazi"
+# weight: -1               # uncomment to pin to top (lower = higher up)
 showToc: true
 TocOpen: false
 hideSummary: false

@@ -3,6 +3,7 @@ title: "Google’s NotebookLM: A Game-Changer for Education and a Prime Example 
 date: 2025-06-10
 lastmod: 2025-06-25
 draft: false
+weight: -1
 description: "Google's NotebookLM is a source-grounded AI research assistant that's transforming how students, educators, and researchers interact with information."
 categories: ["Technology"]
 tags: ["ai", "NotebookLM", "education"]
