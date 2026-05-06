@@ -5,7 +5,7 @@ lastmod: 2025-06-24
 draft: false
 description: "Introduction This document provides a comprehensive guide to developing a modern, functional search engine specifically tailored for Bangladeshi origin and Bangla-language websites."
 categories: ["Technology"]
-tags: []
+tags: ["search-engine", "bangla", "nlp", "web-crawling", "information-retrieval"]
 author: "Jonayed Hossan Gazi"
 showToc: true
 ---

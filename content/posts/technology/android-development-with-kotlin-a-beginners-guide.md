@@ -5,7 +5,7 @@ lastmod: 2025-06-24
 draft: false
 description: "Welcome to the exciting world of Android app development with Kotlin!"
 categories: ["Technology"]
-tags: []
+tags: ["android", "kotlin", "mobile-development", "beginner-guide"]
 author: "Jonayed Hossan Gazi"
 showToc: true
 ---

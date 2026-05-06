@@ -23,4 +23,4 @@ hugo new content posts/category/slug.md # new post from archetype
 hugo --minify                           # build
 ```
 
-[Writing posts](docs/writing.md) · [Deploy](docs/deploy.md) · [SEO](docs/seo.md)
+[Writing posts](docs/writing.md) · [Deploy](docs/deploy.md) · [SEO](docs/seo.md) · [AI instructions](docs/ai-instructions.md)

@@ -5,7 +5,7 @@ lastmod: 2025-06-25
 draft: false
 description: "Discover Manus AI, the world's first fully autonomous AI agent that can handle complex tasks independently. Learn about its features, capabilities, and how it could change the future of work and life."
 categories: ["Technology"]
-tags: []
+tags: ["ai", "manus", "ai-agent", "autonomous-ai", "automation"]
 author: "Jonayed Hossan Gazi"
 showToc: true
 cover:

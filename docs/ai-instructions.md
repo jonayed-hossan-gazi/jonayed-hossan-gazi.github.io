@@ -1,0 +1,145 @@
+# AI Instructions for this blog
+
+This site is a Hugo static blog deployed on GitHub Pages. Read this before making any changes.
+
+## Core philosophy
+
+- The simplest blog is just text files. No server, no database, no maintenance.
+- Every post is a Markdown file. Content must survive tool changes. Plain text above all.
+- Keep things minimal. Do not add complexity without a clear reason.
+
+## Project structure
+
+```
+content/posts/           ← ALL blog posts live here, organized by category subfolder
+content/about.md         ← About page (bio, /uses, testimonials, contact)
+content/projects.md      ← Portfolio (Wapka, Zuna, open source, speaking)
+content/now.md           ← What Jonayed is doing right now (update monthly)
+content/contact.md       ← Contact page
+content/privacy.md       ← Privacy policy
+content/dmca.md          ← DMCA page
+content/search.md        ← Search page (required by PaperMod)
+hugo.yaml                ← All site configuration
+static/images/           ← ALL images live here, never hotlink
+  site/                  ← Favicon, OG image, profile photo
+  posts/YYYY/MM/slug/    ← One folder per post for its images
+layouts/                 ← Template overrides (minimal — only what PaperMod doesn't provide)
+docs/                    ← Documentation (writing.md, deploy.md, seo.md)
+themes/PaperMod/         ← Theme (git submodule, do not edit directly)
+```
+
+## Frontmatter schema
+
+Every post must have this exact structure. Do not add or remove fields.
+
+```yaml
+---
+title: "Title Case Here"
+date: YYYY-MM-DD
+lastmod: YYYY-MM-DD
+draft: true              # Always true by default. Set to false to publish.
+description: ""          # 1-2 sentence SEO description. REQUIRED. Never empty.
+categories: []           # Must use only approved categories (see below)
+tags: []                 # Lowercase, hyphenated for multi-word
+author: "Jonayed Hossan Gazi"
+showToc: true
+weight: 0                # -2 = pinned very top, -1 = pinned top, 0 = normal
+cover:                   # Only if the post has a cover image
+  image: "/images/posts/YYYY/MM/slug/filename.ext"
+  alt: "Descriptive alt text for accessibility and SEO"
+  relative: false
+---
+```
+
+## Categories
+
+Use ONLY these. Do not create new ones without asking.
+
+| Category | For |
+|---|---|
+| Technology | Tech, AI, programming, tools, software |
+| Consciousness | Philosophy, life, growth, reflections |
+| Guides | Tutorials, how-to, step-by-step instructions |
+| Reviews | Movie, book, product reviews |
+| Journal | Micro-updates, ship logs, personal timeline |
+
+## Image rules
+
+- Pattern: `/images/posts/YYYY/MM/slug/filename.ext`
+- Example: `/images/posts/2026/05/my-post/cover.png`
+- ALWAYS download images to the repo. NEVER hotlink external URLs.
+- Every cover image MUST have an `alt` text.
+- Site assets (favicon, OG image, profile photo) go in `/images/site/`.
+
+## Post file naming
+
+- Lowercase, hyphens between words
+- No dates in filenames (Hugo puts date in URL)
+- Good: `understanding-javascript-closures.md`
+- Bad: `2024-01-15-Understanding-JavaScript-Closures.md`
+
+## Post directory convention
+
+Organize files by category folder, but the actual category is set in frontmatter:
+
+```
+content/posts/technology/   ← posts with categories: ["Technology"]
+content/posts/consciousness/
+content/posts/guides/
+content/posts/reviews/
+content/posts/journal/
+```
+
+## Commands
+
+```bash
+hugo serve -D                           # Preview site locally (includes drafts)
+hugo new content posts/category/slug.md # Create new post from archetype
+hugo --minify                           # Build for production
+git push                                # Deploy (GitHub Actions auto-deploys)
+```
+
+## What to do when creating a new post
+
+1. Run `hugo new content posts/category/slug.md`
+2. Fill in: title, description, categories, tags, date
+3. Set `draft: false` when ready
+4. If the post has images, create `/images/posts/YYYY/MM/slug/` and add them
+5. Reference images with absolute paths: `/images/posts/YYYY/MM/slug/filename.ext`
+6. Run `hugo --minify` to verify no build errors
+7. Commit and push
+
+## What to do when editing an existing post
+
+1. Update `lastmod` if the change is significant
+2. Keep the frontmatter fields consistent with the schema
+3. Do not change the `date` field (it's the original publish date)
+4. Run `hugo --minify` after editing to verify
+
+## What NEVER to do
+
+- NEVER hotlink external images — download to `/images/posts/` first
+- NEVER edit files in `themes/PaperMod/` directly — it's a submodule
+- NEVER create new categories without asking
+- NEVER use `draft: false` on unfinished posts
+- NEVER delete the `description` field — it feeds SEO, RSS, and social cards
+- NEVER add JavaScript-heavy features or tracking without discussing
+- NEVER commit the `/public/` directory
+
+## Deploy
+
+Push to `main`. GitHub Actions builds and deploys to `gh-pages` branch automatically. Site is live at `https://jonayed-hossan-gazi.github.io`.
+
+## SEO
+
+Everything is auto-generated by Hugo + configured in `hugo.yaml`:
+- Sitemap, robots.txt, RSS, JSON-LD, OpenGraph, Twitter Cards
+- Custom head extensions in `layouts/_partials/extend_head.html` (Person schema, twitter tags)
+- Google Search Console verification goes in `hugo.yaml` → `params.googleSiteVerification`
+
+## Owner
+
+Jonayed Hossan Gazi
+- Email: jonayed.hossan.gazi@gmail.com
+- GitHub: jonayed-hossan-gazi
+- Sites: wapka.org, zuna.id
