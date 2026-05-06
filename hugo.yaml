@@ -156,12 +156,15 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/jonayed-hossan-gazi"
+    - name: linkedin
+      url: "https://linkedin.com/in/jonayed-hossan-gazi"
     - name: facebook
       url: "https://facebook.com/jonayed.hossan.gazi"
     - name: rss
       url: "index.xml"
 
   # ── Analytics (uncomment when ready) ────────────
+  # googleSiteVerification: ""  # Google Search Console verification code
   # analytics:
   #   google:
   #     SiteVerificationTag: "your-gtag-id"

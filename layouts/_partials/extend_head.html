@@ -1,0 +1,29 @@
+{{- /* Extends PaperMod head with additional SEO tags */ -}}
+
+{{- /* Twitter creator tag */ -}}
+<meta name="twitter:site" content="@jonayedhossan">
+<meta name="twitter:creator" content="@jonayedhossan">
+
+{{- /* Person schema for homepage (Google Knowledge Graph) */ -}}
+{{- if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Jonayed Hossan Gazi",
+  "url": "https://jonayed-hossan-gazi.github.io/",
+  "sameAs": [
+    "https://github.com/jonayed-hossan-gazi",
+    "https://facebook.com/jonayed.hossan.gazi",
+    "https://linkedin.com/in/jonayed-hossan-gazi"
+  ],
+  "jobTitle": "Software Engineer",
+  "description": "Decoding the digital world — making complex technology easy to understand."
+}
+</script>
+{{- end -}}
+
+{{- /* Google Search Console — replace with your verification code */ -}}
+{{- if .Site.Params.googleSiteVerification -}}
+<meta name="google-site-verification" content="{{ .Site.Params.googleSiteVerification }}">
+{{- end -}}
