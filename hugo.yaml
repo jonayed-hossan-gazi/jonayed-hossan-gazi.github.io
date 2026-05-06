@@ -6,6 +6,7 @@
 #   Technology    → tech, AI, programming, tools
 #   Consciousness → philosophy, life, growth
 #   Guides        → tutorials, how-to, step-by-step
+#   Journal       → micro-updates, ship logs, journey
 #
 # IMAGES — always use this path pattern:
 #   /images/posts/YYYY/MM/slug/filename.ext
@@ -194,11 +195,19 @@ menu:
       name: Projects
       url: /projects/
       weight: 20
+    - identifier: journal
+      name: Journal
+      url: /categories/journal/
+      weight: 30
     - identifier: now
       name: Now
       url: /now/
-      weight: 30
+      weight: 40
     - identifier: about
       name: About
       url: /about/
-      weight: 40
+      weight: 50
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 60
