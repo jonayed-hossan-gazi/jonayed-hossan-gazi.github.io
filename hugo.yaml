@@ -1,0 +1,168 @@
+# ── Site ──────────────────────────────────────────
+baseURL: https://jonayed-hossan-gazi.github.io/
+title: Zunaid Hossan Gazi
+languageCode: en-us
+theme: PaperMod
+enableRobotsTXT: true            # SEO: generates /robots.txt
+
+# ── Permalinks ────────────────────────────────────
+# Clean, SEO-friendly URLs with year-month for longevity
+permalinks:
+  posts: /:year/:month/:slugorcontentbasename/
+
+# ── Taxonomies ────────────────────────────────────
+# Categories = broad buckets    Tags = specific labels
+# "series" is custom — great for multi-part content
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+# ── Build ─────────────────────────────────────────
+# Enable these globally so frontmatter is cleaner
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# ── Pagination ────────────────────────────────────
+pagination:
+  pagerSize: 10
+
+# ── Output ────────────────────────────────────────
+outputs:
+  home:
+    - HTML
+    - RSS         # RSS feed for SEO / readers
+    - JSON        # JSON feed for some readers
+  section:
+    - HTML
+    - RSS         # per-section RSS feeds
+
+# ── Markup ────────────────────────────────────────
+markup:
+  highlight:
+    style: dracula
+    lineNos: false
+  goldmark:
+    renderer:
+      unsafe: true           # allows raw HTML in markdown
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+
+# ── Related Content ───────────────────────────────
+related:
+  includeNewer: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 80
+  threshold: 30
+  toLower: true
+
+# ── Privacy (GDPR) ────────────────────────────────
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  x:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
+
+# ═══════════════════════════════════════════════════
+# PAPERMOD PARAMS
+# ═══════════════════════════════════════════════════
+params:
+  env: production
+
+  # ── Homepage ────────────────────────────────────
+  homeInfoParams:
+    Title: "Decoding the Digital World"
+    Content: >
+      Thoughts and things — from AI and programming to philosophy and life lessons.
+
+  # ── SEO ─────────────────────────────────────────
+  # These drive OpenGraph + Twitter Cards + JSON-LD
+  description: "Thoughts and Things — decoding the digital world."
+  author: "Zunaid Hossan Gazi"
+  keywords: [technology, programming, AI, web development, personal blog]
+
+  # ── Appearance ──────────────────────────────────
+  defaultTheme: auto         # respects system preference
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true     # prev / next post links
+  ShowBreadCrumbs: true      # Home > Category > Post
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  ShowFullTextinRSS: false
+  ShowToc: true              # table of contents in posts
+  TocOpen: false
+  comments: false            # set to true when you add Giscus/Disqus
+
+  # ── Search ──────────────────────────────────────
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 100
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  # ── Social links (footer) ───────────────────────
+  socialIcons:
+    - name: github
+      url: "https://github.com/jonayed-hossan-gazi"
+    - name: facebook
+      url: "https://facebook.com/jonayed.hossan.gazi"
+    - name: rss
+      url: "index.xml"
+
+  # ── Analytics (uncomment when ready) ────────────
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "your-gtag-id"
+
+  # ── Assets ──────────────────────────────────────
+  assets:
+    disableHLJS: true        # we use Hugo's built-in highlighter
+    favicon: ""
+    favicon16x16: ""
+    favicon32x32: ""
+    apple_touch_icon: ""
+    safari_pinned_tab: ""
+
+# ═══════════════════════════════════════════════════
+# MAIN MENU
+# ═══════════════════════════════════════════════════
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 50
