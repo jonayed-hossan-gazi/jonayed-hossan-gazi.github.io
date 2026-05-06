@@ -6,13 +6,29 @@
         {{- else }}
         <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
         {{- end }}
-        {{- print " · "}}
     {{- end }}
 
-    {{- with site.Params.footer.text }}
-        {{ . | markdownify }}
-        {{- print " · "}}
-    {{- end }}
+    <nav style="margin: 0.5rem 0; font-size: 0.85em; opacity: 0.7;">
+        <a href="/categories/technology/">Technology</a>
+        <span style="margin: 0 0.25rem;">·</span>
+        <a href="/categories/consciousness/">Consciousness</a>
+        <span style="margin: 0 0.25rem;">·</span>
+        <a href="/categories/guides/">Guides</a>
+        <span style="margin: 0 0.25rem;">·</span>
+        <a href="/categories/reviews/">Reviews</a>
+        <span style="margin: 0 0.25rem;">·</span>
+        <a href="/categories/journal/">Journal</a>
+        <span style="margin: 0 0.5rem;">│</span>
+        <a href="/tags/">Tags</a>
+        <span style="margin: 0 0.25rem;">·</span>
+        <a href="/search/">Search</a>
+        <span style="margin: 0 0.5rem;">│</span>
+        <a href="/contact/">Contact</a>
+        <span style="margin: 0 0.25rem;">·</span>
+        <a href="/privacy/">Privacy</a>
+        <span style="margin: 0 0.25rem;">·</span>
+        <a href="/dmca/">DMCA</a>
+    </nav>
 
     <span>
         Powered by
