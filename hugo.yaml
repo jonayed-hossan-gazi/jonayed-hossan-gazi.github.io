@@ -160,6 +160,8 @@ params:
       url: "https://linkedin.com/in/jonayed-hossan-gazi"
     - name: facebook
       url: "https://facebook.com/jonayed.hossan.gazi"
+    - name: upwork
+      url: "https://upwork.com/freelancers/jonayedh"
     - name: rss
       url: "index.xml"
 

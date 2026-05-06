@@ -8,6 +8,8 @@ _build:
   list: never
 ---
 
+![Jonayed Hossan Gazi](/images/site/profile-photo.jpeg)
+
 Hi! I'm **Jonayed Hossan Gazi**. I make complex technology easy to understand.
 
 This blog is where I share clear, actionable guides on topics like OS architectures,
@@ -24,5 +26,6 @@ minds build more effectively.
 ### Get in touch
 
 - GitHub: [@jonayed-hossan-gazi](https://github.com/jonayed-hossan-gazi)
+- Upwork: [jonayedh](https://upwork.com/freelancers/jonayedh)
 - Facebook: [jonayed.hossan.gazi](https://facebook.com/jonayed.hossan.gazi)
 - Email: [jonayed.hossan.gazi@gmail.com](mailto:jonayed.hossan.gazi@gmail.com)
