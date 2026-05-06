@@ -108,7 +108,13 @@ params:
   ShowFullTextinRSS: false
   ShowToc: true              # table of contents in posts
   TocOpen: false
-  comments: false            # set to true when you add Giscus/Disqus
+  comments: true             # Utterances (see below)
+  # ── Utterances ──────────────────────────────────
+  utterances:
+    repo: "jonayed-hossan-gazi/jonayed-hossan-gazi.github.io"
+    issueTerm: "pathname"
+    label: "comment"
+    theme: "preferred-color-scheme"
 
   # ── Search ──────────────────────────────────────
   fuseOpts:

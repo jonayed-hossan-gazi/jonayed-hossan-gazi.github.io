@@ -25,3 +25,4 @@ minds build more effectively.
 
 - GitHub: [@jonayed-hossan-gazi](https://github.com/jonayed-hossan-gazi)
 - Facebook: [jonayed.hossan.gazi](https://facebook.com/jonayed.hossan.gazi)
+- Email: [jonayed.hossan.gazi@gmail.com](mailto:jonayed.hossan.gazi@gmail.com)
