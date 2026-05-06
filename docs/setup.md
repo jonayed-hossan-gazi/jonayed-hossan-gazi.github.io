@@ -14,18 +14,18 @@ The `--recurse-submodules` flag is critical — it pulls the PaperMod theme. Wit
 ## Install Hugo
 
 ```bash
+# Linux (Ubuntu/Debian) — direct download
+curl -sL "https://github.com/gohugoio/hugo/releases/download/v0.147.3/hugo_extended_0.147.3_linux-amd64.deb" -o /tmp/hugo.deb
+sudo dpkg -i /tmp/hugo.deb
+
 # macOS
 brew install hugo
-
-# Linux (snap)
-sudo snap install hugo --channel=extended
-
-# Linux (apt — may be outdated)
-sudo apt install hugo
 
 # Windows
 choco install hugo-extended
 ```
+
+**Must be the extended version** (SCSS support). Check the [releases page](https://github.com/gohugoio/hugo/releases) for the latest version.
 
 Verify:
 
@@ -33,8 +33,6 @@ Verify:
 hugo version
 # hugo v0.147.3+extended linux/amd64
 ```
-
-Must say `extended`. Required for SCSS support.
 
 ## Run
 
