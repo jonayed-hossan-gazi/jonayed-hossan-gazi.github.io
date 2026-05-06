@@ -5,8 +5,8 @@ lastmod: 2025-06-25
 draft: false
 weight: -2
 description: "Google's NotebookLM is a source-grounded AI research assistant that's transforming how students, educators, and researchers interact with information."
-categories: ["Technology"]
-tags: ["ai", "notebook llm"]
+categories: ["AI & ML"]
+tags: ["ai", "NotebookLM", "education"]
 author: "Jonayed Hossan Gazi"
 showToc: true
 cover:

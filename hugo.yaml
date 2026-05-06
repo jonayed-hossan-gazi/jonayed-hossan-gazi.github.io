@@ -3,11 +3,13 @@
 # ═══════════════════════════════════════════════════
 #
 # CATEGORIES — use only these; add sparingly:
-#   Technology    → tech, AI, programming, tools
-#   Consciousness → philosophy, life, growth
-#   Guides        → tutorials, how-to, step-by-step
-#   Reviews       → movie, book, product reviews
-#   Journal       → micro-updates, ship logs, journey
+#   AI & ML        → artificial intelligence, machine learning, LLMs
+#   Technology     → tech, programming, tools, software
+#   Infrastructure → hosting, servers, networking, devops
+#   Guides         → tutorials, how-to, step-by-step
+#   Consciousness  → philosophy, life, growth, reflections
+#   Reviews        → movie, book, product reviews
+#   Journal        → micro-updates, ship logs, personal timeline
 #
 # IMAGES — always use this path pattern:
 #   /images/posts/YYYY/MM/slug/filename.ext

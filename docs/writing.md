@@ -35,9 +35,12 @@ Use only these. Add sparingly:
 
 | Category | For |
 |---|---|
-| Technology | Tech, AI, programming, tools |
+| AI & ML | Artificial intelligence, machine learning, LLMs |
+| Technology | Tech, programming, tools, software |
+| Infrastructure | Hosting, servers, networking, devops |
+| Guides | Tutorials, how-to, step-by-step |
 | Consciousness | Philosophy, life, growth |
-| Guides | Tutorials, step-by-step |
+| Reviews | Movie, book, product reviews |
 | Journal | Micro-updates, ship logs |
 
 ## Images

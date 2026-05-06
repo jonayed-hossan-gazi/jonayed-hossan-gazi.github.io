@@ -4,7 +4,7 @@ date: 2024-02-03
 lastmod: 2025-06-24
 draft: false
 description: "Discover how to expose your local web apps to the internet using tunneling tools like Ngrok, FRP, Cloudflare Tunnel, and SSH. A beginner-friendly guide to understand tunneling and run apps globally."
-categories: ["Technology"]
+categories: ["Infrastructure"]
 tags: ["Cloudflare Tunnel", "expose local server", "FRP tunnel", "local app online", "localhost online", "Ngrok", "port forwarding", "remote access", "SSH tunnel", "tunneling"]
 author: "Jonayed Hossan Gazi"
 showToc: true

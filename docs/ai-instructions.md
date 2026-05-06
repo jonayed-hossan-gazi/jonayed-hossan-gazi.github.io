@@ -57,9 +57,11 @@ Use ONLY these. Do not create new ones without asking.
 
 | Category | For |
 |---|---|
-| Technology | Tech, AI, programming, tools, software |
-| Consciousness | Philosophy, life, growth, reflections |
+| AI & ML | Artificial intelligence, machine learning, LLMs, AI tools |
+| Technology | Tech, programming, tools, software |
+| Infrastructure | Hosting, servers, networking, devops |
 | Guides | Tutorials, how-to, step-by-step instructions |
+| Consciousness | Philosophy, life, growth, reflections |
 | Reviews | Movie, book, product reviews |
 | Journal | Micro-updates, ship logs, personal timeline |
 

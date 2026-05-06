@@ -4,7 +4,7 @@ date: 2024-02-24
 lastmod: 2025-07-14
 draft: false
 description: "Your one-stop guide to mastering Python. This comprehensive blog post covers everything from the basics to advanced concepts, perfect for beginners and intermediate learners. Start your Python journey today!"
-categories: ["Technology"]
+categories: ["AI & ML"]
 tags: ["advanced Python", "learn Python", "Python", "Python basics", "Python concepts", "Python for beginners", "Python guide", "Python programming", "Python tutorial"]
 author: "Jonayed Hossan Gazi"
 showToc: true
