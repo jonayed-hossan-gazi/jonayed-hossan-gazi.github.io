@@ -3,14 +3,16 @@ title: "Google’s NotebookLM: A Game-Changer for Education and a Prime Example 
 date: 2025-06-10
 lastmod: 2025-06-25
 draft: false
-description: "Google's NotebookLM: A Game-Changer for Education and a Prime Example of AI's Potential"
-categories: ["Uncategorized"]
-tags: ["ai", "notebook llm"]
-author: "Zunaid Hossan Gazi"
+description: "Google's NotebookLM is a source-grounded AI research assistant that's transforming how students, educators, and researchers interact with information."
+categories: ["Technology"]
+tags: ["ai", "NotebookLM", "education"]
+author: "Jonayed Hossan Gazi"
 showToc: true
 original_url: "https://zuna.id/blog/googles-notebooklm-a-game-changer-for-education-and-a-prime-example-of-ais-potential/"
 cover:
-  image: "https://zuna.id/wp-content/uploads/2025/06/notebook_lm_share.png"
+  image: "/images/notebooklm-cover.png"
+  alt: "Google NotebookLM"
+  relative: false
 ---
 
 ## Google’s NotebookLM: A Game-Changer for Education and a Prime Example of AI’s Potential

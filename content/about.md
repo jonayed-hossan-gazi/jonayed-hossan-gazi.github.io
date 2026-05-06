@@ -4,9 +4,11 @@ date: 2026-05-05
 layout: "page"
 showToc: false
 hideMeta: true
+_build:
+  list: never
 ---
 
-Hi! I'm **Zunaid Hossan Gazi**. I make complex technology easy to understand.
+Hi! I'm **Jonayed Hossan Gazi**. I make complex technology easy to understand.
 
 This blog is where I share clear, actionable guides on topics like OS architectures,
 programming frameworks, AI, and lessons from life — helping developers and curious

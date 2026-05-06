@@ -3,14 +3,16 @@ title: "The Past Is a Place of Reference, Not Residence"
 date: 2024-02-10
 lastmod: 2025-06-24
 draft: false
-description: "“Life Goes On, and So Can You”It sounds simple—maybe even cliché—but it holds one of life’s deepest truths. If you wait for life to be perfect before you love it, you may never feel ali"
+description: "Life goes on, and so can you. A reflection on purpose, relationships, and why no one enters your life by accident."
 categories: ["Consciousness"]
 tags: ["emotional wisdom", "life", "life lessons", "love", "moving on", "new beginnings", "no regrets", "philosophy", "purpose", "self growth"]
-author: "Zunaid Hossan Gazi"
+author: "Jonayed Hossan Gazi"
 showToc: true
 original_url: "https://zuna.id/blog/the-past-is-a-place-of-reference-not-residence/"
 cover:
-  image: "https://zuna.id/wp-content/uploads/2025/06/The-Past-Is-a-Place-of-Reference-Not-Residence.jpg"
+  image: "/images/past-not-residence-cover.jpg"
+  alt: "The Past Is a Place of Reference, Not Residence"
+  relative: false
 ---
 
 **“Life Goes On, and So Can You”**  

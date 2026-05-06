@@ -1,6 +1,6 @@
 # ── Site ──────────────────────────────────────────
 baseURL: https://jonayed-hossan-gazi.github.io/
-title: Zunaid Hossan Gazi
+title: Jonayed Hossan Gazi
 languageCode: en-us
 theme: PaperMod
 enableRobotsTXT: true            # SEO: generates /robots.txt
@@ -91,8 +91,10 @@ params:
   # ── SEO ─────────────────────────────────────────
   # These drive OpenGraph + Twitter Cards + JSON-LD
   description: "Thoughts and Things — decoding the digital world."
-  author: "Zunaid Hossan Gazi"
+  author: "Jonayed Hossan Gazi"
   keywords: [technology, programming, AI, web development, personal blog]
+  images:
+    - "/og-default.png"
 
   # ── Appearance ──────────────────────────────────
   defaultTheme: auto         # respects system preference
@@ -134,11 +136,11 @@ params:
 
   # ── Assets ──────────────────────────────────────
   assets:
-    disableHLJS: true        # we use Hugo's built-in highlighter
-    favicon: ""
-    favicon16x16: ""
-    favicon32x32: ""
-    apple_touch_icon: ""
+    disableHLJS: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
     safari_pinned_tab: ""
 
 # ═══════════════════════════════════════════════════

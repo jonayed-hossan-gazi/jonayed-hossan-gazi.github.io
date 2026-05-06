@@ -7,7 +7,7 @@ description: ""
 categories: []
 tags: []
 series: []
-author: Your Name
+author: "Jonayed Hossan Gazi"
 showToc: true
 TocOpen: false
 hideSummary: false
