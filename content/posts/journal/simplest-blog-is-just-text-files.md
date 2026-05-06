@@ -1,5 +1,5 @@
 ---
-title: "Goodbye WordPress, hello Hugo"
+title: "The simplest blog is just text files"
 date: 2026-05-06
 lastmod: 2026-05-06
 draft: false
