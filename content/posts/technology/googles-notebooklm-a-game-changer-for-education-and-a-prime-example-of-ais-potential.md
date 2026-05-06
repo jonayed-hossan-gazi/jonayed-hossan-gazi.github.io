@@ -10,8 +10,8 @@ author: "Jonayed Hossan Gazi"
 showToc: true
 original_url: "https://zuna.id/blog/googles-notebooklm-a-game-changer-for-education-and-a-prime-example-of-ais-potential/"
 cover:
-  image: "/images/notebooklm-cover.png"
-  alt: "Google NotebookLM"
+  image: "/images/posts/2025/06/notebooklm/cover.png"
+  alt: "Google NotebookLM — AI-powered research assistant interface"
   relative: false
 ---
 

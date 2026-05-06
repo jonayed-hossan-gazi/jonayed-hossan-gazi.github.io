@@ -10,8 +10,8 @@ author: "Jonayed Hossan Gazi"
 showToc: true
 original_url: "https://zuna.id/blog/the-past-is-a-place-of-reference-not-residence/"
 cover:
-  image: "/images/past-not-residence-cover.jpg"
-  alt: "The Past Is a Place of Reference, Not Residence"
+  image: "/images/posts/2024/02/past-not-residence/cover.jpg"
+  alt: "The Past Is a Place of Reference, Not Residence — path in dark forest"
   relative: false
 ---
 

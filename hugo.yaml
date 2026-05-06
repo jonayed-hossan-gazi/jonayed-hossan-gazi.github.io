@@ -1,3 +1,29 @@
+# ═══════════════════════════════════════════════════
+# STRICT RULES (follow these for long-term sanity)
+# ═══════════════════════════════════════════════════
+#
+# CATEGORIES — use only these; add sparingly:
+#   Technology    → tech, AI, programming, tools
+#   Consciousness → philosophy, life, growth
+#   Guides        → tutorials, how-to, step-by-step
+#
+# IMAGES — always use this path pattern:
+#   /images/posts/YYYY/MM/slug/filename.ext
+#   Site assets → /images/site/
+#   Never hotlink external images.
+#
+# POSTS — always start with draft: true, set to false when ready.
+#   Never use draft posts as "notes" — they still get published in some outputs.
+#
+# SLUGS — lowercase, hyphens, no dates in filename.
+#   Good: understanding-closures.md
+#   Bad: 2024-Understanding-Closures.md
+#
+# COMMITS — describe what changed, not why.
+#   Good: "add post about closures"
+#   Bad:  "fixed stuff"
+# ═══════════════════════════════════════════════════
+
 # ── Site ──────────────────────────────────────────
 baseURL: https://jonayed-hossan-gazi.github.io/
 title: Jonayed Hossan Gazi
@@ -94,7 +120,7 @@ params:
   author: "Jonayed Hossan Gazi"
   keywords: [technology, programming, AI, web development, personal blog]
   images:
-    - "/og-default.png"
+    - "/images/site/og-default.png"
 
   # ── Appearance ──────────────────────────────────
   defaultTheme: auto         # respects system preference

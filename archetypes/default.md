@@ -13,9 +13,7 @@ TocOpen: false
 hideSummary: false
 searchHidden: false
 # cover:
-#   image: "cover.webp"
-#   alt: "Description"
-#   caption: "Photo by ..."
-#   relative: true
-#   hidden: false
+#   image: "/images/posts/YYYY/MM/slug/cover.png"
+#   alt: "Descriptive alt text (required for SEO)"
+#   relative: false
 ---
