@@ -1,8 +1,8 @@
 ---
 title: "SSL, CDN, social login — the infrastructure layer you don't have to think about"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
+lastmod: 2026-06-05
+draft: false
 description: "Free SSL certificates, global CDN, DDoS protection, social authentication. The platform handles DevOps so users don't have to."
 categories: ["Wapka"]
 tags: ["wapka", "infrastructure", "ssl", "cdn", "devops"]

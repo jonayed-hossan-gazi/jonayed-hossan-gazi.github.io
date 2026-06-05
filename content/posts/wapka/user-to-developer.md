@@ -1,9 +1,9 @@
 ---
 title: "From Wapka user to Wapka developer: the career path"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "Visual builder to Lua scripting to REST API to self-hosting. One platform. Every skill level. No migration."
+lastmod: 2026-06-05
+draft: false
+description: "The upgrade path from visual builder to Lua scripting to REST API to self-hosting. One platform at every skill level. No migration needed. No starting over."
 categories: ["Wapka"]
 tags: ["wapka", "learning", "career", "growth"]
 author: "Jonayed Hossan Gazi"

@@ -1,9 +1,9 @@
 ---
 title: "What 10 years of building teaches you"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "A decade with one platform. Here is what I learned about focus, iteration, and the long game."
+lastmod: 2026-06-05
+draft: false
+description: "A decade with one platform. Here is what I learned about consistency over intensity, backward compatibility as a principle, and why the long game always wins."
 categories: ["Wapka"]
 tags: ["wapka", "founder-story", "philosophy", "lessons"]
 author: "Jonayed Hossan Gazi"

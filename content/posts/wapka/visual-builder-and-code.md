@@ -1,9 +1,9 @@
 ---
 title: "The visual builder that coexists with server-side code"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "Drag-and-drop UI and backend scripting on one platform. Most platforms do one or the other. Wapka does both."
+lastmod: 2026-06-05
+draft: false
+description: "Wix does visual but no backend. Vercel does code but no visual builder. Wapka does both — and they work together on the same platform, seamlessly."
 categories: ["Wapka"]
 tags: ["wapka", "visual-builder", "low-code", "features"]
 author: "Jonayed Hossan Gazi"

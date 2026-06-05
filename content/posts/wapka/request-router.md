@@ -1,9 +1,9 @@
 ---
 title: "How Wapka's request router handles three eras simultaneously"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "One incoming request. Three possible handlers. Here is the technical architecture that makes it work."
+lastmod: 2026-06-05
+draft: false
+description: "A single web request arrives at Wapka. It could match a legacy WAP tag page, a Lua route, or a Native App. Here is the architecture that dispatches across three eras."
 categories: ["Wapka"]
 tags: ["wapka", "architecture", "router", "backend"]
 author: "Jonayed Hossan Gazi"
@@ -27,10 +27,10 @@ The router checks the URL against registered routes. Lua scripts register routes
 If the request targets a legacy WAP tag page, the WML parser takes over. It reads the old tag format from the database, parses `{wb_name}` type tags, and renders the response. This parser has not changed substantially in a decade — and that is the point. Stability is the feature.
 
 **Step 3: Lua engine (if matched)**
-If the request matches a Lua route, the sandboxed LuaJIT runtime executes the script. It has access to the database, file storage, session data, and request context. The script returns a response, and the engine handles serialization.
+If the request matches a Lua route, the sandboxed Lua runtime (PHP LuaSandbox) executes the script. It has access to the database, file storage, session data, and request context. The script returns a response, and the engine handles serialization.
 
-**Step 4: PHP fallback**
-If no specific route matches, the PHP core renders the visual builder page or CMS content. This is the default handler that powers most user sites.
+**Step 4: Native App handler**
+If no specific route matches, the Native App engine renders pre-built applications (blog, forum, store) or visual builder pages. This is the default handler that powers most user sites.
 
 ---
 
@@ -38,7 +38,7 @@ If no specific route matches, the PHP core renders the visual builder page or CM
 
 The critical design decision: all three handlers share the same data.
 
-- The user table is the same whether accessed via WAP tag, Lua script, or PHP
+- The user table is the same whether accessed via WAP tag, Lua script, or Native App
 - File storage is the same across all handlers
 - Session management is unified
 - CMS content is readable by any handler
@@ -49,7 +49,7 @@ This means a user can start with a WAP tag page, add a visual builder section, a
 
 ## Performance characteristics
 
-Because LuaJIT is so fast and the legacy parser is so simple, the dispatch overhead is negligible. In benchmarks, the router adds less than a millisecond to request processing time. The real work happens in the handler — and LuaJIT handles that at near-C speed.
+Because Lua is so fast and the legacy parser is so simple, the dispatch overhead is negligible. The router adds less than a millisecond to request processing time. The real work happens in the handler — and Lua handles that efficiently.
 
 ---
 

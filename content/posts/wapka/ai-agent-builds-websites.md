@@ -1,8 +1,8 @@
 ---
 title: "Your AI agent can now build and manage websites — here is how Wapka does it"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
+lastmod: 2026-06-05
+draft: false
 description: "Wapka supports the Model Context Protocol. AI models can read your site data, modify content, and deploy features — without human intervention."
 categories: ["Wapka"]
 tags: ["wapka", "ai", "mcp", "model-context-protocol", "ai-agent"]
@@ -75,4 +75,4 @@ This isn't a "ChatGPT plugin." It's a platform built for a future where software
 
 **Continue reading:**
 [Why Lua? The architectural decision →](/2026/05/why-lua/)
-[Wapka: the complete platform review →](/2026/05/wapka-review/)
+[Wapka: the complete platform review →](/2026/05/wapka-complete-review/)

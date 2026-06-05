@@ -1,9 +1,9 @@
 ---
 title: "Why I open-sourced Wapka"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "The code is on GitHub. The decision was deliberate. Here is why freedom to leave is the foundation of trust."
+lastmod: 2026-06-05
+draft: false
+description: "Open-sourcing years of work was not the obvious choice. But I believe trust is the only real moat — and you cannot build trust behind closed doors. Here is why."
 categories: ["Wapka"]
 tags: ["wapka", "open-source", "philosophy", "trust"]
 author: "Jonayed Hossan Gazi"

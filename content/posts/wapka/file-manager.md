@@ -1,9 +1,9 @@
 ---
 title: "The file manager that serves terabytes without breaking"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "Users upload everything from profile pictures to full media libraries. Here is the storage architecture behind it."
+lastmod: 2026-06-05
+draft: false
+description: "Users upload everything from profile pictures to full media streaming libraries. The file manager handles it all — small files and terabytes of data on shared infrastructure."
 categories: ["Wapka"]
 tags: ["wapka", "storage", "file-manager", "infrastructure"]
 author: "Jonayed Hossan Gazi"

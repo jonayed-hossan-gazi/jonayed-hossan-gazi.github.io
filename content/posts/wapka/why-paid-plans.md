@@ -1,9 +1,9 @@
 ---
 title: "Why I introduced paid plans after years of free"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "Free forever was the promise. But storage at scale costs real money. Here is how and why the platform evolved."
+lastmod: 2026-06-05
+draft: false
+description: "Free forever was the promise. But storage at scale costs real money. Here is how we introduced paid tiers without betraying the trust of the community."
 categories: ["Wapka"]
 tags: ["wapka", "founder-story", "pricing", "sustainability"]
 author: "Jonayed Hossan Gazi"
@@ -30,7 +30,7 @@ The question was not whether to introduce paid tiers. The question was how to do
 
 The free tier had to remain meaningful. Not a demo. Not a trial. A genuinely useful tier that anyone — student, creator, hobbyist — could build on without paying a cent.
 
-100GB storage. Free SSL. Global CDN. Server-side scripting. Three sites. That's the free tier today. It serves millions of users who never pay a dollar.
+100GB storage. Free SSL. Global CDN. Server-side scripting. Three sites. That is the free tier today. It serves tens of thousands of users who never pay a dollar.
 
 Paid tiers unlock more: additional storage, more sites, dedicated compute, higher rate limits. Users who outgrow the free tier can scale up. Users who don't, don't.
 

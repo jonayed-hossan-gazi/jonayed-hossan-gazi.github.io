@@ -1,9 +1,9 @@
 ---
 title: "How I built the Wapka brand — without the .com"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "The original domain wasn't available. So I built the brand differently — one domain at a time, over years."
+lastmod: 2026-06-05
+draft: false
+description: "The original wapka.com was not available. So I built the brand differently — securing wapka.co, .site, .website, and .org one domain at a time, over years."
 categories: ["Wapka"]
 tags: ["wapka", "founder-story", "domains", "branding"]
 author: "Jonayed Hossan Gazi"

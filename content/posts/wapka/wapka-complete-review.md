@@ -1,9 +1,9 @@
 ---
 title: "Wapka: the complete platform review"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "An open-source, self-hostable, AI-ready web development platform for creators, students, and developers. 9 out of 10."
+lastmod: 2026-06-05
+draft: false
+description: "An open-source, AI-ready web platform combining a visual builder, Lua scripting, and backward-compatible legacy support. Reviewed across seven categories with an honest verdict."
 categories: ["Wapka"]
 tags: ["wapka", "review", "platform", "open-source", "website-builder"]
 author: "Jonayed Hossan Gazi"
@@ -29,22 +29,22 @@ You sign up. You get a visual builder, server-side scripting, a database, file s
 | Component | Technology |
 |---|---|
 | **Backend** | PHP (core), Lua (scripting) |
-| **Scripting runtime** | LuaJIT (sandboxed) |
-| **Database** | MySQL / MariaDB |
+| **Scripting runtime** | Lua 5.1 via PHP LuaSandbox |
+| **Database** | NoSQL Dataset |
 | **API** | Full REST |
-| **Containerization** | Docker |
+| **Containerization** | Enterprise (public soon) |
 | **AI protocol** | MCP |
 
-The choice of Lua is deliberate. In a shared hosting environment running thousands of user scripts, you need sandboxing that is fast, secure, and cheap. LuaJIT provides all three. It's why the free tier exists at all.
+The choice of Lua is deliberate. In a shared hosting environment running thousands of user scripts, you need sandboxing that is fast, secure, and cheap. Lua via PHP LuaSandbox provides all three. It is why the free tier exists at all.
 
-The platform runs three request handlers simultaneously — a legacy parser for old WAP tags, a Lua router for modern scripts, and a PHP fallback for visual builder pages — all against the same data layer. Code from 2013 and code from 2026 coexist without conflict.
+The platform runs three request handlers simultaneously — a legacy parser for old WAP tags, a Lua router for modern scripts, and a Native App handler for visual builder pages — all against the same data layer. Code from 2013 and code from 2026 coexist without conflict.
 
 ---
 
 ## The freedom model
 
 Wapka is open source on GitHub. You can:
-- Export your database as a raw SQL dump — no proprietary format
+- Export your data as JSON — no proprietary format
 - Clone the repository and run `docker compose up`
 - Self-host on your own server with the same software
 - Reattach to the managed cloud anytime

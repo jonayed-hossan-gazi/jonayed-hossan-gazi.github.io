@@ -1,9 +1,9 @@
 ---
 title: "A decade of code, zero forced migrations"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "Code from 2013 still runs on Wapka. Here is how backward compatibility became a design principle, not an afterthought."
+lastmod: 2026-06-05
+draft: false
+description: "Code written in 2013 still runs on Wapka today — unchanged alongside code from 2026. Here is how backward compatibility became a design principle, not an afterthought."
 categories: ["Wapka"]
 tags: ["wapka", "architecture", "backward-compatibility", "legacy"]
 author: "Jonayed Hossan Gazi"
@@ -39,7 +39,7 @@ When a request arrives, Wapka's router determines how to handle it:
 
 1. The legacy parser checks if the URL matches a WAP tag page stored in the database
 2. The Lua router checks for matching script routes
-3. The PHP fallback renders visual builder pages and CMS content
+3. The Native App handler renders pre-built applications and CMS content
 
 All three handlers access the same data layer. The same user database. The same file storage. The same session management. A visual builder page can include a Lua component. A Lua script can serve WAP tags. The REST API can read content created by any of them.
 

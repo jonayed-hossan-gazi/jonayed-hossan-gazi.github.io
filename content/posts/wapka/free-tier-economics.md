@@ -1,11 +1,11 @@
 ---
 title: "100GB free storage + server-side scripting for $0 — here is how"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "The only reason Wapka can offer this is LuaJIT. Here is the math — and why no competitor can match it."
+lastmod: 2026-06-05
+draft: false
+description: "100GB storage, server-side scripting, SSL, and CDN — all free. This is not a loss leader. Lua efficiency makes it structurally impossible for competitors to match."
 categories: ["Wapka"]
-tags: ["wapka", "free-tier", "economics", "luajit"]
+tags: ["wapka", "free-tier", "economics", "lua"]
 author: "Jonayed Hossan Gazi"
 showToc: true
 ---
@@ -22,7 +22,7 @@ A standard VPS costs roughly $5 per month. It gives you 25GB of storage and enou
 
 Wapka serves tens of thousands of users on shared infrastructure. The key differentiator is not discounted hardware. It is software efficiency.
 
-LuaJIT — the scripting engine behind Wapka — runs with such minimal resource consumption that thousands of scripts can execute concurrently on a single modest server. Memory: kilobytes per execution. Startup: microseconds. CPU: near-native speed. Every other language in common use for web development has orders of magnitude more overhead.
+Lua — running inside PHP LuaSandbox on Wapka — runs with minimal resource consumption. Thousands of scripts execute concurrently on a single modest server. Memory: kilobytes per execution. Startup: microseconds. Every other language in common use for web development has orders of magnitude more overhead.
 
 ---
 
@@ -30,7 +30,7 @@ LuaJIT — the scripting engine behind Wapka — runs with such minimal resource
 
 This efficiency is not something a competitor can replicate by optimizing their Node.js or Python stack. Lua was designed for exactly this use case: safe, isolated, high-density execution. A competitor who wants to match Wapka's free tier would need to either:
 
-- Build on Lua (which they would not, because the ecosystem is niche)
+- Build on Lua (which they would not, because the ecosystem is smaller)
 - Absorb massive compute costs (which they cannot, because that breaks the business model)
 - Offer a dramatically reduced free tier (which is what most platforms do)
 
@@ -40,12 +40,12 @@ This is the moat. Not marketing. Not pricing strategy. Architecture.
 
 ## What community impact looks like
 
-For many users — students, creators, small business owners across the world — the free tier is the difference between building something and building nothing. They cannot afford $20/month for a VPS. They should not have to.
+For many users — students, creators, small business owners across the world — the free tier is the difference between building something and building nothing. A $20/month VPS should not be the barrier to creating on the web. The platform removes that barrier entirely.
 
 This is the platform the community helped shape. People who contributed ideas, tested features, pushed the limits of what the free tier could do — they made this possible. The free tier is not a gift from a company. It is the result of years of shared effort and shared vision.
 
 ---
 
 **Continue reading:**
-[LuaJIT: why compute costs near zero →](/2026/05/luajit-economics/)
+[Why compute costs near zero →](/2026/05/luajit-economics/)
 [Self-host vs managed →](/2026/05/self-host-vs-managed/)

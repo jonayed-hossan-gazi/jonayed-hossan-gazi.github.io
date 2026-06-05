@@ -1,9 +1,9 @@
 ---
 title: "From zero coding knowledge to shipping a platform"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "I learned to code by building a web platform. Here is what that process actually looks like."
+lastmod: 2026-06-05
+draft: false
+description: "I learned to code by building a web platform from scratch, without formal training. Here is what that process actually looks like across two years of iteration."
 categories: ["Wapka"]
 tags: ["wapka", "founder-story", "learning-to-code"]
 author: "Jonayed Hossan Gazi"
@@ -18,7 +18,7 @@ I understood HTML and CSS. But servers, databases, deployment, SSL, DNS — thes
 
 ## Year one: building the foundation
 
-The first year was discovery. PHP. MySQL. How a web server handles requests. Shared hosting versus VPS. Each concept unlocked the next.
+The first year was discovery. PHP. Databases. How a web server handles requests. Shared hosting versus VPS. Each concept unlocked the next.
 
 I built prototypes. Early ones were limited — simple subdomain routing, basic file uploads, a minimal database layer. Each prototype taught me something. Each limitation pointed to what needed to improve next.
 

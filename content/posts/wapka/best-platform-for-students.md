@@ -1,8 +1,8 @@
 ---
 title: "The best platform for students learning to code is free and you've never heard of it"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
+lastmod: 2026-06-05
+draft: false
 description: "Most platforms charge before you can even start. Wapka gives you a full-stack environment for $0 — no credit card, no DevOps, no limits."
 categories: ["Wapka"]
 tags: ["wapka", "learn-to-code", "students", "education", "free-hosting"]
@@ -22,7 +22,7 @@ Wapka removes every single one of those barriers.
 
 - A visual builder to create pages instantly
 - Server-side scripting with Lua — learn backend logic without setting up a server
-- A built-in MySQL database with a visual query builder
+- A built-in NoSQL database (Dataset) with a visual browser
 - 100GB of storage
 - Free SSL certificates
 - Global CDN

@@ -1,11 +1,11 @@
 ---
 title: "The Express-like Lua framework: familiar syntax, sandboxed runtime"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "Wapka's Lua framework looks like Express.js, runs in a secure sandbox, and lets anyone write server-side code."
+lastmod: 2026-06-05
+draft: false
+description: "Wapka's Lua framework looks like Express.js — routes, middleware, request handling, database access. Familiar syntax running inside a secure PHP LuaSandbox environment."
 categories: ["Wapka"]
-tags: ["wapka", "lua", "luajit", "framework"]
+tags: ["wapka", "lua", "lusandbox", "framework"]
 author: "Jonayed Hossan Gazi"
 showToc: true
 ---
@@ -24,21 +24,22 @@ app:get("/", function(ctx)
 end)
 
 app:get("/api/users", function(ctx)
-    local users = db:query("SELECT id, name FROM users")
+    local users = api.users.list({ limit = 50 })
     return ctx:json(users)
 end)
 
 app:post("/api/contact", function(ctx)
     local name = ctx.body.name
     local email = ctx.body.email
-    db:execute("INSERT INTO messages (name, email) VALUES (?, ?)", name, email)
+    api.dataset.create("messages", {
+        name = name,
+        email = email
+    })
     return ctx:json({success = true})
 end)
-
-app:run()
 ```
 
-Route definitions. Request parameters. Database queries. JSON responses. Standard web development patterns — running inside a sandboxed LuaJIT environment.
+Route definitions. Request parameters. Database queries. JSON responses. Standard web development patterns — running inside a sandboxed Lua environment via PHP LuaSandbox.
 
 ---
 
@@ -47,7 +48,7 @@ Route definitions. Request parameters. Database queries. JSON responses. Standar
 - **Routing**: `app:get`, `app:post`, `app:put`, `app:delete` — standard HTTP method routing
 - **Parameter parsing**: URL params (`:id`), query strings, request bodies
 - **Response formatting**: HTML, JSON, plain text, file downloads
-- **Database access**: Query builder with parameterized queries
+- **Database access**: Dataset API with collection queries
 - **Session management**: User authentication state across requests
 - **File access**: Read and write files in the user's storage
 

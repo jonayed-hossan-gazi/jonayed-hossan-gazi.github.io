@@ -1,9 +1,9 @@
 ---
 title: "The responsibility of hosting other people's work for over a decade"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "When someone builds on your platform, they trust you. That trust is heavier than any code you will ever write."
+lastmod: 2026-06-05
+draft: false
+description: "When someone builds their site on your platform, they trust you with their work. That trust is heavier than code. Here is what being a responsible steward means."
 categories: ["Wapka"]
 tags: ["wapka", "trust", "responsibility", "philosophy"]
 author: "Jonayed Hossan Gazi"

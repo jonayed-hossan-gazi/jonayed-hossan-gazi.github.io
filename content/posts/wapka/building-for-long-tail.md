@@ -1,8 +1,8 @@
 ---
 title: "Building for the long tail, not the enterprise"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
+lastmod: 2026-06-05
+draft: false
 description: "Wapka does not target enterprises. It targets individuals, creators, students, and small teams. That is a strategic choice."
 categories: ["Wapka"]
 tags: ["wapka", "strategy", "long-tail", "philosophy"]

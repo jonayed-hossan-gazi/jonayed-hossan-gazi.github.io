@@ -1,9 +1,9 @@
 ---
 title: "Keeping terabytes of user data alive for a decade — and counting"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "Users upload media. Files. Entire streaming sites. I promised to keep it all safe. Here is what it takes."
+lastmod: 2026-06-05
+draft: false
+description: "Users upload media, files, and entire streaming sites. For over a decade, I kept every byte safe. Here is what it takes to maintain that promise at scale."
 categories: ["Wapka"]
 tags: ["wapka", "founder-story", "data", "storage", "community"]
 author: "Jonayed Hossan Gazi"
@@ -46,7 +46,7 @@ The data is not just bytes. It is creative work. It is someone's first website. 
 
 Today, Wapka supports both managed and self-hosted deployments. Users on the managed cloud get automatic backups, redundancy, and scaling. Users who self-host get full control over their data.
 
-And the promise still stands: your data is yours. Export it anytime. Raw SQL dump. No proprietary format. No barriers.
+And the promise still stands: your data is yours. Export it anytime. JSON format. No proprietary format. No barriers.
 
 ---
 

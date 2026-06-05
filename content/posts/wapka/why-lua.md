@@ -1,11 +1,11 @@
 ---
 title: "Why Wapka runs on Lua — the architectural decision behind it"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
+lastmod: 2026-06-05
+draft: false
 description: "Choosing Lua for Wapka's scripting engine wasn't a compromise. It was the only correct engineering decision for a shared hosting platform at scale."
 categories: ["Wapka"]
-tags: ["wapka", "lua", "luajit", "architecture", "sandboxing"]
+tags: ["wapka", "lua", "lusandbox", "architecture", "sandboxing"]
 author: "Jonayed Hossan Gazi"
 showToc: true
 ---
@@ -22,16 +22,11 @@ On a shared platform with a generous free tier, that overhead kills the economic
 
 ---
 
-## What Lua gives you natively
+## What Lua gives you
 
-Lua was designed to be embedded and sandboxed. It's not a web language that happened to work — it's a language specifically built for safe, isolated execution inside a host application.
+Lua is lightweight, fast, and designed to be embedded. Wapka executes Lua inside **PHP LuaSandbox** — a secure sandbox with CPU and memory limits. Your code cannot touch the filesystem, call PHP functions, or access other sites' data. It is safe by default.
 
-With Lua, you can:
-- Create an isolated state per user with near-zero memory cost (kilobytes, not megabytes)
-- Strip out dangerous functions (`os.execute`, `io.*`, `dofile`) at the sandbox boundary
-- Start a new execution context in microseconds, not seconds
-
-This means thousands of users can run scripts concurrently on a single server without containers. The compute cost is marginal.
+A Lua execution context uses minimal memory. Startup is near-instant. Thousands of users can run scripts concurrently on a single server without containers. The compute cost is marginal.
 
 ---
 
@@ -42,9 +37,9 @@ This means thousands of users can run scripts concurrently on a single server wi
 | **Node.js** | ~30 MB | Seconds | No |
 | **Python** | ~20 MB | Seconds | No |
 | **PHP** | ~15 MB | Instant | Partial |
-| **Lua (LuaJIT)** | ~1 KB | Microseconds | Yes, natively |
+| **Lua (via LuaSandbox)** | ~1 KB | Microseconds | Yes |
 
-These numbers aren't marketing — they're physics. LuaJIT is one of the fastest dynamic language runtimes in existence, approaching C performance for many workloads.
+These numbers are not marketing — they are physics. Lua 5.1 is one of the fastest dynamic languages, and LuaSandbox enforces strict isolation at near-zero overhead.
 
 ---
 

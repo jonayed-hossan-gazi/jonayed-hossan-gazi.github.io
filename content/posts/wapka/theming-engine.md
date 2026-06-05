@@ -1,9 +1,9 @@
 ---
 title: "The theming engine: how users create and share designs"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "A community-driven design ecosystem. Users build themes, share them, and customize every aspect of their site."
+lastmod: 2026-06-05
+draft: false
+description: "A community-driven design ecosystem. Users create Twig templates, customize layouts, and share designs. The platform visual identity emerges from the people who use it."
 categories: ["Wapka"]
 tags: ["wapka", "themes", "design", "community"]
 author: "Jonayed Hossan Gazi"
@@ -18,13 +18,13 @@ That tradition continues today.
 
 ## How theming works
 
-Wapka uses a template system with `.thm` and `.tpl` files. Users can:
-- Create themes from scratch with HTML, CSS, and JavaScript
-- Customize existing themes — colors, fonts, layouts
-- Share themes with the community
-- Apply themes to their site with one click
+Wapka uses **Twig** templates for Lua-powered sites. Users can:
+- Create templates from scratch with HTML, CSS, and Twig syntax
+- Customize existing templates — colors, fonts, layouts
+- Share templates with the community
+- Apply templates to their site with one click
 
-Theming is not a walled garden. You have full access to the underlying code. The visual builder generates clean markup that you can style. Lua scripts can inject dynamic content into any template.
+Theming is not a walled garden. You have full access to the underlying code. The visual builder generates clean markup that you can style. Lua scripts can inject dynamic content into any Twig template.
 
 ---
 

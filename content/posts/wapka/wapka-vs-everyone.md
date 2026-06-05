@@ -1,9 +1,9 @@
 ---
 title: "Wapka vs WordPress vs Wix vs Vercel: an honest comparison"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "Every platform has strengths. Here is where Wapka wins, where it doesn't, and how to choose."
+lastmod: 2026-06-05
+draft: false
+description: "Wapka vs WordPress, Wix, and Vercel — an honest comparison across every dimension. Where Wapka wins, where it does not, and how to choose what fits your needs."
 categories: ["Wapka"]
 tags: ["wapka", "wordpress", "wix", "vercel", "comparison", "website-builder"]
 author: "Jonayed Hossan Gazi"
@@ -20,7 +20,7 @@ Choosing a web platform is personal. It depends on what you are building, your t
 |---|---|---|
 | **Visual builder** | Excellent | Excellent |
 | **Server-side code** | None | Full Lua scripting engine |
-| **Free tier** | Wix branding, limited storage | 100GB storage, no ads, full features |
+| **Free tier** | Wix branding, limited storage | 100GB storage, full features |
 | **Open source** | No | Yes — full codebase on GitHub |
 | **Self-hosting** | Impossible | Docker, one command |
 | **Best for** | Simple business sites, portfolios | Dynamic sites, apps, creators who want to grow |
@@ -51,7 +51,7 @@ Choosing a web platform is personal. It depends on what you are building, your t
 |---|---|---|
 | **Focus** | Frontend + serverless functions | Full stack + CMS |
 | **Visual builder** | None | Full drag-and-drop |
-| **Database** | External (Supabase, PlanetScale) | Built-in MySQL |
+| **Database** | External (Supabase, PlanetScale) | Built-in NoSQL (Dataset) |
 | **File storage** | External (S3, Cloudinary) | Built-in, 100GB+ free |
 | **Server-side language** | JavaScript, TypeScript, Go | Lua |
 | **Open source** | No — proprietary edge network | Yes |

@@ -1,9 +1,9 @@
 ---
 title: "Pre-built modules: forums, galleries, user systems in one click"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "No plugin marketplace. No installation. No compatibility concerns. Forums, chatrooms, galleries, auth — all built in."
+lastmod: 2026-06-05
+draft: false
+description: "Forums, chatrooms, galleries, guestbooks, user systems, blogs, file managers — all built in. No plugin marketplace. No installation. No compatibility concerns."
 categories: ["Wapka"]
 tags: ["wapka", "modules", "features", "cms"]
 author: "Jonayed Hossan Gazi"

@@ -1,8 +1,8 @@
 ---
 title: "What is coming: the Wapka roadmap"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
+lastmod: 2026-06-05
+draft: false
 description: "Native apps. Advanced Lua framework. Full OpenAPI REST. Self-hosting improvements. Here is where the platform is heading."
 categories: ["Wapka"]
 tags: ["wapka", "roadmap", "future", "vision"]
@@ -41,5 +41,5 @@ The direction of Wapka is not determined by a single person. It emerges from the
 ---
 
 **Continue reading:**
-[Wapka: the complete review →](/2026/05/wapka-review/)
+[Wapka: the complete platform review →](/2026/05/wapka-complete-review/)
 [The community story →](/2026/05/community-story/)

@@ -1,9 +1,9 @@
 ---
 title: "How Wapka grew from zero to 100,000 sites"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "A web platform ended its run. Rather than move on, I chose to rebuild it — for the millions who relied on it."
+lastmod: 2026-06-05
+draft: false
+description: "A web platform ended its run. Rather than move on, I chose to rebuild it. Today over 100,000 sites run on the open-source platform that emerged from that decision."
 categories: ["Wapka"]
 tags: ["wapka", "founder-story", "origin"]
 author: "Jonayed Hossan Gazi"

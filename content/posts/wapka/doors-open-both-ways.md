@@ -1,9 +1,9 @@
 ---
 title: "The doors open both ways — why Wapka is built for freedom"
 date: 2026-05-06
-lastmod: 2026-05-06
-draft: true
-description: "Open source. Docker self-hosting. Raw data export. The platform gives you every path — and that builds genuine trust."
+lastmod: 2026-06-05
+draft: false
+description: "Open source on GitHub. Data export in JSON. Docker self-hosting for enterprise. The platform gives you every path to leave — and that freedom builds genuine trust."
 categories: ["Wapka"]
 tags: ["wapka", "open-source", "self-hosting", "docker", "freedom"]
 author: "Jonayed Hossan Gazi"
@@ -30,13 +30,13 @@ Open source means you are not renting access to a proprietary black box. You are
 
 You can run Wapka on your own server. The process is simple:
 
-1. Export your database (raw SQL dump — no proprietary format)
+1. Export your data (JSON format — no proprietary format)
 2. Clone the repository from GitHub
-3. Run `docker compose up` (PHP-FPM + MySQL)
-4. Import your database
+3. Run `docker compose up` (enterprise tier; public self-hosting coming soon)
+4. Import your data
 5. Point your DNS to your server
 
-Your site runs identically to the cloud version. Same software. Same behavior. No license checks. No "call home" to Wapka servers. A truly independent node.
+Your site runs identically to the cloud version. Same software. Same behavior. No license checks. A truly independent node.
 
 ---
 
@@ -45,8 +45,8 @@ Your site runs identically to the cloud version. Same software. Same behavior. N
 This is the feature most platforms can't offer. You can:
 
 - **Detach**: export your site, run it independently on your own server
-- **Self-host**: maintain it yourself, customize freely, add external services
-- **Reattach**: if you decide managing a server isn't worth the effort, import your data back to the managed cloud
+- **Self-host**: maintain it yourself (enterprise tier; coming to all users), customize freely
+- **Reattach**: if you decide managing a server is not worth the effort, import your data back to the managed cloud
 
 No data loss. No migration scripts. No breaking changes. You move between managed and self-hosted without burning bridges.
 
@@ -59,13 +59,13 @@ No data loss. No migration scripts. No breaking changes. You move between manage
 | Wix | No — site is locked | Proprietary | Impossible |
 | WordPress.com | Yes, but painful | Export XML, serialized data | Yes, different software |
 | Vercel | Frontend only | Git repo | No — edge network locked |
-| **Wapka** | **Yes, seamless** | **Raw SQL dump** | **Same software, Docker** |
+| **Wapka** | **Yes, seamless** | **JSON / Dataset export** | **Same software, Docker (enterprise)** |
 
 ---
 
 ## The work in progress
 
-Full transparency: the open source transition is ongoing. The repository at `wapka-web` contains the core platform — the PHP framework, the Lua engine, the legacy parser, the REST API, the Docker configuration. The foundation is there. Anyone can clone, build, and run a self-hosted instance today.
+Full transparency: the open source transition is ongoing. The repository at `wapka-web` contains the core platform — the PHP framework, the Lua engine, the legacy parser, the REST API, the Docker configuration (enterprise tier). The foundation is there. Anyone can clone, build, and contribute.
 
 But there is more to do. Documentation for self-hosters needs to deepen. Upgrade paths between releases need to smooth. The module ecosystem needs to grow. Open source is not a one-time decision — it is a continuous process. We are in the middle of it.
 
