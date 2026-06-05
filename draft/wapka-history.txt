@@ -1,0 +1,150 @@
+so i myself started using wapka.com/mobi as a kind in early 2015/16 when i was in high-school basically i got a nokia button phone,
+so from bangladesh third world count its impossible to buy domain host site and all the stuf i don't even know all the thing i know about a local forum start using it for creative stuff,
+later it shut during i became sad i used to know only basical xhtml/css/js that i learned it wapka
+Nothing else not understand what is what how to do programm write code or setup all the thing, but i have one goal that i will recreate it and bring the community together that helped me on they way.
+so i spent about 2 year 2017-2019 learning and testing all the stuffe and working on prototype, and gethring money i even offerd the orginal owner about 4000$ for orginal domain but they asked about 25000$ per domain i am from third world just a teen yet i managed to buy some premium domain and acquired domain like wapka.co as alternative to .com and many more like wapka.org,site,website etc.
+Domain:
+wapka.website
+Registered On:
+2018-08-27
+Domain:
+wapka.site
+Registered On:
+2019-04-14
+Domain:
+wapka.org
+Registered On:
+2020-04-22
+
+so its took years after years of dedication and hard work to restablish the community as of 2026 now about 100k site+users and we did so many changes to make it modernize it can compete with company also its opensource so user can continue and no-site is lost before.
+
+ i brough domain wapka.site,wapka.website literally money earned from orginal wapka.com and overthe years i recreated it still old style i keep for nostalogia on m.wapka.org
+
+in the early time back in 2018 i tried to recreate orginal site in 2020 i treid to modernize by supporting better tags in 2021 added themes/templating,
+in 2023 added http rest api,
+in 2024 basica lua scriting,
+in 2025 more broder idea path toword freedom no locking opensource also intruduced paid service as over the years it was completly free i paid from my personal saving, some ads money, some community contribution,
+ paid intruduced as all expensive and hard to keep years of data on online as all the data i keep safe for years there literally user who uploded terabyte of file and created media streaming site i stilling paid for bandwidth/storage as i promesed to myself
+paid uesr get better service now user can get more resource if they want to,
+
+in 2026 advance native apps, lua framework engine, full openapi rest, ai compitable mcp, self hosted possibility,
+  www.wapka.mobi and all 1.8 million sub-sites under it are not ....
+Current Status & Alternatives:Original Service: The Wapka platform (a popular DIY WAP builder in the 2000s and 2010s) effectively ceased its primary operations as newer site-building tools and Content Management Systems became the standard.
+Here is a research breakdown covering the 2006 WAP Golden Era and the Modern Wapka.org.
+
+Part 1: The 2006 Era – The Wapka WML Kingdom
+Context of the Time:In 2006, the mobile internet was a very different beast. Most people were on GPRS/EDGE (3G was rare in many developing markets). Devices ran on Symbian, Java (J2ME), or plain proprietary OS. Websites were built in WML (Wireless Markup Language), formatted for screens that were 128x128 or 176x208 pixels.
+What Wapka Was:Wapka was, at its heart, a "WAP Site Builder" and host. You went to the Wapka site on your phone, registered, and instantly got a subdomain (e.g., myusername.wapka.co or similar) with a fully functional database-driven WAP site.
+Key Features of the 2006 Wapka Experience:
+
+Pre-Installed Modules (The Killer App):  You didn't start with a blank page. Wapka came with a handful of pre-loaded scripts:
+
+Guestbook: The social network of the era. Users would navigate WAP portals, clicking "Visit My Guestbook," signing it, and leaving links to their own sites.
+Forums: Extremely popular for discussing ringtones, “hacks,” phone unlocking, and MP4 conversions.
+File Manager: Allowed users to upload .jar (Java games), .sis (Symbian apps), .mp3 (ringtones), and .jpg/.gif (wallpapers).
+Chatroom: A simple text-based chat.
+
+
+The "Wapka Code" System:  This was the template engine. Users couldn't write raw PHP easily, but they could use tags like:
+
+{wb_name} — Display your site name.
+{wb_users_online} — Show who is browsing.
+{wb_forum} — Embed the forum.
+{wb_ads} — Inject the platform's ads.
+
+
+The Theme System:  Wapka used .thm and .tpl files. The community exploded creating "Wapka Skins." These were heavily modified CSS + WML combinations. The most famous "era-defining" skins often included neon colors, scrolling text (<marquee>), and flashing <blink> tags.
+
+The WapMaster Culture:  Users were ranked (Admin, Mod, User). To be a "WapMaster" was a status symbol. In South Asia (India, Pakistan, Bangladesh) and West Africa, these Wapka portals were the primary source of entertainment.
+
+
+Why did it succeed in 2006?
+
+Zero Setup: No FTP, no server config.
+Social Loop: The guestbook-to-guestbook linking created a mini-social network.
+Content Warez: It was the primary distribution channel for mobile games and music in the feature phone world.
+
+
+Part 2: The Transition (2009–2014) – The XHTML Crisis
+The Smartphone Disruption:When the iPhone and Android took off, WML became obsolete. Users wanted real HTML. Many WAP builders died here (RIP Zetaboards Mobile, WapSoc).
+Wapka’s Response:Wapka successfully pivoted from a strict WAP engine to a Mobile HTML XHTML builder.
+
+They upgraded the core to output XHTML Mobile Profile.
+The old WML tags were deprecated in favor of injecting HTML/CSS.
+The Domain Shift: The platform consolidated to Wapka.org (it previously ran on various TLDs and country-level domains).
+
+The Content Shift:The community moved from "how to download Nokia themes" to "how to get Facebook followers" and "how to create an app preview page." The guestbook culture faded, replaced by comment systems and email notifications.
+
+Part 3: Modern Wapka.org (2018 – Present)
+Many people assume Wapka died a decade ago. It didn't. It just went completely under the radar.
+Current State of the Platform:
+Wapka.org is a legitimate, albeit niche, PHP Web Application Builder.
+
+The Technology Stack:
+
+Frontend: Modern responsive HTML5/CSS3 themes. The dashboard is a standard webapp (not WAP).
+Backend: PHP with a proprietary Database Builder. This is their secret weapon.
+The Database Builder: You can create complex relational databases (Users, Movies, Products, etc.) without writing a single SQL query. It binds forms, inputs, and displays automatically. For many non-coders in developing nations, this is their first introduction to MVC-style logic.
+
+
+Key Modern Features:
+
+Custom PHP: Premium users can write raw PHP code, ignoring the Wapka engine entirely (turning it into a vanilla PHP host with a visual DB builder).
+SSL Certificates: Full HTTPS support (free).
+Social Logins: Login with Facebook/Google.
+WebSockets: Supports real-time chat and notifications (a massive upgrade from the old <META HTTP-EQUIV="Refresh"> tricks).
+
+
+The Modern Userbase:
+
+Legacy Holdouts: Old school Wap Masters who run movies portals, music streaming scripts, or game reviews.
+Educational Use: Students in Pakistan, Bangladesh, and Nigeria use Wapka to learn PHP and database logic without paying for expensive server hosting.
+Niche APIs: Some developers use the Wapka Database Builder as an easy backend GUI for a mobile app (REST API calls are supported).
+
+
+The "Ghost Town" Feel: Unlike the bustling community of 2006 (where the forum had thousands of posts per day), the modern Wapka community is quiet and transaction-based. You don't browse portals looking for guestbooks anymore; you use the tool to build a specific project.
+
+
+Technology Comparison:
+
+
+
+Feature
+2006 Wapka
+Modern Wapka.org
+
+
+
+Output
+WML 1.3
+XHTML/HTML5/PHP
+
+
+Database
+Single MySQL table
+Full Relational DB Builder
+
+
+User Interface
+128x128 text
+Desktop Dashboard + API
+
+
+Custom Code
+Wapka Codes only
+Full PHP/JS injection
+
+
+Community
+High (Guestbook linking)
+Low (Transactional)
+
+
+Ads
+WAP banner clicks
+AdSense / Modern Banners
+
+
+Conclusion: A Living Fossil
+Wapka is perhaps the longest surviving "WAP era" product. It successfully navigated the death of WML, the explosion of smartphones, and the era of app stores. 
+It no longer represents the "wild west" of the mobile web, but it remains a powerful rapid application development tool for specific audiences. For anyone who remembers the 2006 era, Wapka is nostalgia. For a student in 2024 building their first database-driven site, Wapka.org is a zero-cost, low-learning-curve entry into web development. It is a quiet, persistent machine in a world that has forgotten what a wapka.mobi guestbook signing felt like.
