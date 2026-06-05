@@ -1,0 +1,12 @@
+/* TEAM */
+  Developer: Jonayed Hossan Gazi
+  Contact: jonayed.hossan.gazi [at] gmail.com
+  GitHub: jonayed-hossan-gazi
+  Location: Bangladesh
+
+/* SITE */
+  Last update: 2026-05-06
+  Language: English
+  Standards: HTML5, CSS3
+  Components: Hugo, PaperMod
+  Source: https://github.com/jonayed-hossan-gazi/jonayed-hossan-gazi.github.io
