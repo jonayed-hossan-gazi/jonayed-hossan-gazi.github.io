@@ -59,5 +59,5 @@ Community members around the world — developers testing self-hosted setups, st
 ---
 
 **Continue reading:**
-[You can leave anytime →](/2026/05/you-can-leave-anytime/)
+[You can leave anytime →](/2026/05/doors-open-both-ways/)
 [Self-host vs managed: honest tradeoffs →](/2026/05/self-host-vs-managed/)

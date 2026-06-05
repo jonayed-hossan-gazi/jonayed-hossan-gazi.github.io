@@ -1,9 +1,9 @@
 ---
-title: "You can leave Wapka anytime — and that is why people stay"
+title: "The doors open both ways — why Wapka is built for freedom"
 date: 2026-05-06
 lastmod: 2026-05-06
 draft: true
-description: "Open source. Docker self-hosting. Raw database export. The platform gives you every exit — and that builds genuine trust."
+description: "Open source. Docker self-hosting. Raw data export. The platform gives you every path — and that builds genuine trust."
 categories: ["Wapka"]
 tags: ["wapka", "open-source", "self-hosting", "docker", "freedom"]
 author: "Jonayed Hossan Gazi"
@@ -60,6 +60,16 @@ No data loss. No migration scripts. No breaking changes. You move between manage
 | WordPress.com | Yes, but painful | Export XML, serialized data | Yes, different software |
 | Vercel | Frontend only | Git repo | No — edge network locked |
 | **Wapka** | **Yes, seamless** | **Raw SQL dump** | **Same software, Docker** |
+
+---
+
+## The work in progress
+
+Full transparency: the open source transition is ongoing. The repository at `wapka-web` contains the core platform — the PHP framework, the Lua engine, the legacy parser, the REST API, the Docker configuration. The foundation is there. Anyone can clone, build, and run a self-hosted instance today.
+
+But there is more to do. Documentation for self-hosters needs to deepen. Upgrade paths between releases need to smooth. The module ecosystem needs to grow. Open source is not a one-time decision — it is a continuous process. We are in the middle of it.
+
+What exists now is real and functional. What is coming will make it better. The commitment is the same: the platform belongs to the community, and the code proves it.
 
 ---
 

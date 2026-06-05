@@ -48,5 +48,5 @@ They were wrong. Competitors have not copied it — because the technical archit
 ---
 
 **Continue reading:**
-[You can leave anytime →](/2026/05/you-can-leave-anytime/)
+[You can leave anytime →](/2026/05/doors-open-both-ways/)
 [The responsibility of hosting data →](/2026/05/responsibility-of-hosting/)

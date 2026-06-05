@@ -97,5 +97,5 @@ That is the strongest foundation a platform can offer.
 
 **Continue reading:**
 [Why Lua? The architectural decision →](/2026/05/why-lua/)
-[You can leave anytime — and that is why people stay →](/2026/05/you-can-leave-anytime/)
+[You can leave anytime — and that is why people stay →](/2026/05/doors-open-both-ways/)
 [Wapka vs WordPress vs Wix vs Vercel →](/2026/05/wapka-vs-everyone/)

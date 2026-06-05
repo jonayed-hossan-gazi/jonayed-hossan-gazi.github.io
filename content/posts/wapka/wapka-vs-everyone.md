@@ -98,4 +98,4 @@ Honesty builds trust. Here's when Wapka is not the right fit:
 
 **Continue reading:**
 [Why Lua? The architectural decision →](/2026/05/why-lua/)
-[You can leave anytime — and that is why people stay →](/2026/05/you-can-leave-anytime/)
+[You can leave anytime — and that is why people stay →](/2026/05/doors-open-both-ways/)

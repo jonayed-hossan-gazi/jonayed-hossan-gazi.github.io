@@ -52,4 +52,4 @@ And the promise still stands: your data is yours. Export it anytime. Raw SQL dum
 
 **Continue reading:**
 [Why I introduced paid plans after years of free →](/2026/05/why-paid-plans/)
-[You can leave Wapka anytime →](/2026/05/you-can-leave-anytime/)
+[You can leave Wapka anytime →](/2026/05/doors-open-both-ways/)

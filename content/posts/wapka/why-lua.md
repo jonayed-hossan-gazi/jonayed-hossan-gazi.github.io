@@ -94,5 +94,5 @@ And because the platform is open source and self-hostable, you can always connec
 ---
 
 **Continue reading:**
-[You can leave Wapka anytime — and that is why people stay →](/2026/05/you-can-leave-anytime/)
+[You can leave Wapka anytime — and that is why people stay →](/2026/05/doors-open-both-ways/)
 [A decade of code, zero forced migrations →](/2026/05/decade-of-compatibility/)
