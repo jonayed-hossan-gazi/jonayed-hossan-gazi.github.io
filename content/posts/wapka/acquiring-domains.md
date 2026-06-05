@@ -44,10 +44,10 @@ Without the .com, I found different paths. Community members who believed in the
 
 | Domain | How I got it |
 |---|---|
-| wapka.website | Direct registration |
-| wapka.site | Direct registration |
+| wapka.website | Community member |
+| wapka.site | Community member |
 | wapka.co | Community member |
-| wapka.org | Community member |
+| wapka.org | Public availability |
 
 In April 2020, wapka.org became available. I registered it immediately. It carries a different weight — purpose, permanence, alignment with what the platform is. It became the home.
 
