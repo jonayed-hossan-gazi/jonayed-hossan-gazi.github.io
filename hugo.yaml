@@ -3,6 +3,7 @@
 # ═══════════════════════════════════════════════════
 #
 # CATEGORIES — use only these; add sparingly:
+#   Wapka          → the platform (origin, architecture, features, vision)
 #   AI & ML        → artificial intelligence, machine learning, LLMs
 #   Technology     → tech, programming, tools, software
 #   Infrastructure → hosting, servers, networking, devops
@@ -194,22 +195,26 @@ menu:
       name: Posts
       url: /posts/
       weight: 10
+    - identifier: wapka
+      name: Wapka
+      url: /wapka/
+      weight: 20
     - identifier: projects
       name: Projects
       url: /projects/
-      weight: 20
+      weight: 30
     - identifier: journal
       name: Journal
       url: /categories/journal/
-      weight: 30
+      weight: 40
     - identifier: now
       name: Now
       url: /now/
-      weight: 40
+      weight: 50
     - identifier: about
       name: About
       url: /about/
-      weight: 50
+      weight: 60
     - identifier: search
       name: Search
       url: /search/

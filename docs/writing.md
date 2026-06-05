@@ -35,6 +35,7 @@ Use only these. Add sparingly:
 
 | Category | For |
 |---|---|
+| Wapka | The platform: origin, architecture, features, vision |
 | AI & ML | Artificial intelligence, machine learning, LLMs |
 | Technology | Tech, programming, tools, software |
 | Infrastructure | Hosting, servers, networking, devops |
