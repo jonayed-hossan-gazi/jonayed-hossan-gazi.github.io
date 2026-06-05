@@ -50,4 +50,4 @@ I had that reason. I was building for a community I understood because I had bee
 
 **Continue reading:**
 [How Wapka grew from zero to 100,000 sites →](/2026/05/how-wapka-grew/)
-[How I built the Wapka brand →](/2026/05/acquiring-wapka-domains/)
+[How I acquired domains when it seemed impossible →](/2026/05/acquiring-domains/)
