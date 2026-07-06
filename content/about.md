@@ -24,7 +24,7 @@ Founder of **Wapka** (open-source website builder & CMS) and **Zuna** (web hosti
 
 | For | How I can help |
 |---|---|
-| **Developers** | Custom web applications, Lua/PHP/Python backend, API design, deployment automation |
+| **Developers** | Custom web applications, Python, Node.js, PHP backend, API design, deployment automation |
 | **Technical teams** | Documentation, developer guides, training materials, architecture reviews |
 | **Businesses** | Hosting infrastructure, platform migration, performance optimization, Wapka/Zuna setup |
 | **Content creators** | Technical writing, tutorials, blog posts about your product or stack |
@@ -54,7 +54,7 @@ Founder of **Wapka** (open-source website builder & CMS) and **Zuna** (web hosti
 
 ## Tools I use
 
-VS Code, Neovim, Linux, Firefox, Chrome, Lua, Python, PHP, Kotlin, Bash, Figma, GIMP, Hugo.
+VS Code, Neovim, Linux, Firefox, Chrome, Python, Node.js, PHP, Kotlin, Bash, Figma, GIMP, Hugo.
 
 ---
 
