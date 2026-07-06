@@ -12,23 +12,16 @@ _build:
 ## What I've built
 
 ### [Wapka](https://wapka.org) — Website Builder & CMS
-A self-hosted website builder and content management system. Supports Lua scripting, reverse proxy, cloud storage, and free SSL. Built for developers who want full control without the complexity.
+An open-source website builder and content management system. Supports server-side scripting, custom domains, and self-hosting. Built for developers who want full control without the complexity.
 
-**Tech**: Lua 5.1, NGINX, custom sandbox · **Status**: Live & active
-
----
-
-### [Zuna](https://zuna.id) — Web Hosting Platform
-Managed hosting platform with one-click installs, SSD storage, and developer-friendly tooling. Powers dozens of production sites.
-
-**Tech**: Linux, Virtualmin, custom control panel · **Status**: Live & active
+**Status**: Live & active
 
 ---
 
-## Speaking & writing
+## Writing
 
 | Where | What |
 |---|---|
-| **zuna.id/blog** | 25+ articles on AI, programming, hosting, philosophy |
-| **Wapka docs** | Wrote the official technical documentation |
-| **Community** | Wapka user community, open source contributor |
+| **This blog** | Articles on AI, programming, hosting, philosophy |
+| **Wapka docs** | Official technical documentation |
+| **Community** | Open source contributor |

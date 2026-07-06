@@ -16,7 +16,7 @@ _build:
 
 I help developers and businesses build, launch, and maintain web platforms — without the usual complexity.
 
-Founder of **Wapka** (open-source website builder & CMS) and **Zuna** (web hosting). I write about the intersection of practical engineering, AI tools, and the philosophy of building things that last.
+Founder of **Wapka** (open-source website builder & CMS). I write about the intersection of practical engineering, AI tools, and the philosophy of building things that last.
 
 ---
 
@@ -26,7 +26,7 @@ Founder of **Wapka** (open-source website builder & CMS) and **Zuna** (web hosti
 |---|---|
 | **Developers** | Custom web applications, Python, Node.js, PHP backend, API design, deployment automation |
 | **Technical teams** | Documentation, developer guides, training materials, architecture reviews |
-| **Businesses** | Hosting infrastructure, platform migration, performance optimization, Wapka/Zuna setup |
+| **Businesses** | Hosting infrastructure, platform migration, performance optimization, Wapka setup |
 | **Content creators** | Technical writing, tutorials, blog posts about your product or stack |
 
 ---
@@ -48,7 +48,6 @@ Founder of **Wapka** (open-source website builder & CMS) and **Zuna** (web hosti
 
 **[Wapka](https://wapka.org)** — Open-source website builder with Lua scripting, NoSQL database, and REST API. Used by over 100,000 sites.
 
-**[Zuna](https://zuna.id)** — Managed hosting platform with one-click installs, SSD storage, and developer-friendly tooling.
 
 ---
 
