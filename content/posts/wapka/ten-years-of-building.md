@@ -1,16 +1,16 @@
 ---
-title: "What 10 years of building teaches you"
+title: "What years of building teaches you"
 date: 2026-05-06
 lastmod: 2026-06-05
 draft: false
-description: "A decade with one platform. Here is what I learned about consistency over intensity, backward compatibility as a principle, and why the long game always wins."
+description: "Years with a single platform. Here is what I learned about consistency over intensity, backward compatibility as a principle, and why the long game always wins."
 categories: ["Wapka"]
 tags: ["wapka", "founder-story", "philosophy", "lessons"]
 author: "Jonayed Hossan Gazi"
 showToc: true
 ---
 
-Ten years is a long time to work on one thing. Long enough to see trends rise and fall. Long enough to rebuild the same system three times. Long enough to learn that most advice about building products is wrong — not maliciously wrong, just too short-term to matter.
+Years is a long time to work on one thing. Long enough to see trends rise and fall. Long enough to rebuild the same system three times. Long enough to learn that most advice about building products is wrong — not maliciously wrong, just too short-term to matter.
 
 Here is what actually sticks.
 

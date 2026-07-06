@@ -25,11 +25,10 @@ The tools I use daily:
 
 | Category | What |
 |---|---|
-| **Editor** | VS Code, sometimes Neovim |
-| **Terminal** | GNOME Terminal + zsh |
-| **OS** | Ubuntu 24.04 |
-| **Browser** | Firefox (primary), Chrome (dev) |
-| **Hardware** | Dell Inspiron 15 |
+| **Editor** | VS Code, Neovim |
+| **OS** | Linux |
+| **Browser** | Firefox, Chrome |
+| **Hardware** | Linux |
 | **Stack** | Lua, Python, PHP, Kotlin, Bash |
 | **Hosting** | Linux VPS + custom stack |
 | **Design** | Figma, GIMP |

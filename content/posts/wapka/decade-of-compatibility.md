@@ -3,7 +3,7 @@ title: "A decade of code, zero forced migrations"
 date: 2026-05-06
 lastmod: 2026-06-05
 draft: false
-description: "Code written in 2013 still runs on Wapka today — unchanged alongside code from 2026. Here is how backward compatibility became a design principle, not an afterthought."
+description: "Code written years ago still runs on Wapka today — unchanged alongside modern code. Here is how backward compatibility became a design principle, not an afterthought."
 categories: ["Wapka"]
 tags: ["wapka", "architecture", "backward-compatibility", "legacy"]
 author: "Jonayed Hossan Gazi"
@@ -12,7 +12,7 @@ showToc: true
 
 Most platforms upgrade by breaking things. Old versions are deprecated. APIs are removed. Users are told to migrate — or lose access. It happens everywhere. WordPress plugins break on updates. Python 2 code stopped working when Python 3 shipped. iOS apps need constant rewrites to stay in the App Store.
 
-Wapka took a different path. Code written in 2013 still runs today. Unchanged. Alongside code written this year. How is that possible — and why does it matter?
+Wapka took a different path. Code written years ago still runs today. Unchanged. Alongside code written this year. How is that possible — and why does it matter?
 
 ---
 

@@ -24,7 +24,7 @@ Wapka was a WAP site builder — built for the mobile web before smartphones dom
 
 It shipped with pre-built modules: guestbooks, forums, chatrooms, file managers. You could upload content, customize themes, and embed dynamic features. For millions of people, this was their introduction to building on the web. Their first line of code. Their first audience.
 
-I was one of those people. I learned HTML, CSS, and JavaScript on Wapka. It's where I understood what a server was, what a database did, what it meant to create something that reached people across the world.
+For many people, Wapka was where they learned HTML, CSS, and JavaScript — their first server, their first database, their first experience creating something that reached across the world.
 
 ---
 
@@ -42,7 +42,7 @@ I decided that someone would be me.
 
 Not as a nostalgia project. Not as a clone. As a modern, open-source platform that preserved everything valuable about the original — instant publishing, zero setup, server-side power without complexity — and added everything the modern web demanded: visual builder, Lua scripting, REST API, Docker self-hosting, AI integration.
 
-It took years. I taught myself the stack. I built prototypes that evolved into a platform. I acquired domains one at a time as funds allowed. I reinvested every dollar earned back into infrastructure.
+It took years of prototypes that evolved into a platform. Domains were acquired one at a time as resources allowed. Every dollar earned went back into infrastructure.
 
 ---
 

@@ -16,7 +16,7 @@ cover:
 
 #### **Introduction**
 
-Sometimes, the books we don’t expect much from end up leaving a quiet, lasting impression. Years ago, I came across a lesser-known foreign novel, **“Mother”** by **Maxim Gorky** —a classic of Russian literature, but not something widely read where I live.
+Sometimes, the books we don’t expect much from end up leaving a quiet, lasting impression. Years ago, I came across a lesser-known foreign novel, **“Mother”** by **Maxim Gorky** —a classic of Russian literature, but not something widely read in every part of the world.
 
 Though I didn’t fully grasp everything at the time, it offered a window into a very different world—a world that expanded my understanding of **human struggle** , **resistance** , and the value of **awakening to new ideas**.
 
@@ -24,7 +24,7 @@ Though I didn’t fully grasp everything at the time, it offered a window into a
 
 ### 🧊 **A Glimpse Into a Harsh, Distant World**
 
-_Mother_ is set in pre-revolutionary Russia, a place of cold streets, factories, and political awakening. For someone who grew up in a very different climate and culture, it felt foreign—but also fascinating.
+_Mother_ is set in pre-revolutionary Russia, a place of cold streets, factories, and political awakening. For someone from a very different climate and culture, the setting felt foreign—but also fascinating.
 
 At the heart of the story is **Pavel** , a young man who rises in consciousness and courage to fight against injustice. His mother, once quiet and fearful, also transforms—showing the power of belief and collective struggle.
 

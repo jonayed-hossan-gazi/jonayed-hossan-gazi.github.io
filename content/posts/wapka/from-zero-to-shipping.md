@@ -24,7 +24,7 @@ I built prototypes. Early ones were limited — simple subdomain routing, basic 
 
 This is the real process: constant iteration. Each version teaches you something. Over time, those lessons compound into competence.
 
-By late 2018, I had a working prototype. It could register users, create sites, and serve pages. That was the foundation.
+Eventually, the prototype reached a point where it could register users, create sites, and serve pages. That was the foundation.
 
 ---
 
