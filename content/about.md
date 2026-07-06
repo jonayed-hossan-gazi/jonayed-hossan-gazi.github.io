@@ -1,6 +1,7 @@
 ---
 title: "About"
 date: 2026-05-06
+lastmod: 2026-06-05
 layout: "page"
 showToc: true
 TocOpen: false
@@ -13,46 +14,57 @@ _build:
 
 ## Hi, I'm Jonayed
 
-I build things for the web. Founder of **[Wapka](https://wapka.org)** (website builder & CMS) and **[Zuna](https://zuna.id)** (web hosting). I make complex technology easy to understand — whether it's AI tools, server infrastructure, or the philosophy behind why we build what we build.
+I help developers and businesses build, launch, and maintain web platforms — without the usual complexity.
 
-This blog is where I share what I learn. No fluff, no corporate-speak. Just real insights from building and shipping on the internet.
+Founder of **Wapka** (open-source website builder & CMS) and **Zuna** (web hosting). I write about the intersection of practical engineering, AI tools, and the philosophy of building things that last.
 
 ---
 
-## /uses
+## What I do
 
-The tools I use daily:
-
-| Category | What |
+| For | How I can help |
 |---|---|
-| **Editor** | VS Code, Neovim |
-| **OS** | Linux |
-| **Browser** | Firefox, Chrome |
-| **Hardware** | Linux |
-| **Stack** | Lua, Python, PHP, Kotlin, Bash |
-| **Hosting** | Linux VPS + custom stack |
-| **Design** | Figma, GIMP |
-| **Writing** | Markdown + Hugo |
+| **Developers** | Custom web applications, Lua/PHP/Python backend, API design, deployment automation |
+| **Technical teams** | Documentation, developer guides, training materials, architecture reviews |
+| **Businesses** | Hosting infrastructure, platform migration, performance optimization, Wapka/Zuna setup |
+| **Content creators** | Technical writing, tutorials, blog posts about your product or stack |
 
 ---
 
 ## What people say
 
-> *"The Wapka guides are the clearest technical docs I've read. Every step just works."*  
-> — Wapka community member
+> *"The Wapka guides are the clearest technical docs I've read. Every step just works."*
+> — Platform user
 
-> *"Finally, a hosting guide that doesn't assume I already know everything."*  
-> — Blog reader, on the Virtualmin post
+> *"Finally, a hosting guide that doesn't assume I already know everything."*
+> — Reader, on the Linux hosting guide
 
-> *"Your writing on consciousness and growth hits different. Tech blog meets philosophy — rare combo."*  
-> — Twitter follower
+> *"Tech blog meets philosophy — rare combination. Your writing on AI and infrastructure is what keeps me reading."*
+> — Long-time reader
 
 ---
 
-## Get in touch
+## Featured projects
 
-- GitHub: [@jonayed-hossan-gazi](https://github.com/jonayed-hossan-gazi)
-- X / Twitter: [@jonayedhossan](https://x.com/jonayedhossan)
-- Upwork: [jonayedh](https://upwork.com/freelancers/jonayedh)
-- Facebook: [jonayed.hossan.gazi](https://facebook.com/jonayed.hossan.gazi)
-- Email: [jonayed.hossan.gazi@gmail.com](mailto:jonayed.hossan.gazi@gmail.com)
+**[Wapka](https://wapka.org)** — Open-source website builder with Lua scripting, NoSQL database, and REST API. Used by over 100,000 sites.
+
+**[Zuna](https://zuna.id)** — Managed hosting platform with one-click installs, SSD storage, and developer-friendly tooling.
+
+---
+
+## Tools I use
+
+VS Code, Neovim, Linux, Firefox, Chrome, Lua, Python, PHP, Kotlin, Bash, Figma, GIMP, Hugo.
+
+---
+
+## Work with me
+
+If you need help with a web project, hosting infrastructure, technical documentation, or custom development:
+
+- **Upwork**: [jonayedh](https://upwork.com/freelancers/jonayedh)
+- **Email**: [jonayed.hossan.gazi@gmail.com](mailto:jonayed.hossan.gazi@gmail.com)
+- **GitHub**: [@jonayed-hossan-gazi](https://github.com/jonayed-hossan-gazi)
+- **X**: [@jonayedhossan](https://x.com/jonayedhossan)
+
+I typically respond within 24 hours. Mention your project and timeline.
