@@ -58,4 +58,3 @@ And this is just the beginning.
 
 **Continue reading:**
 [From zero coding knowledge to shipping a platform →](/2026/05/from-zero-to-shipping/)
-[How I acquired domains when it seemed impossible →](/2026/05/acquiring-domains/)
