@@ -25,14 +25,6 @@ Managed hosting platform with one-click installs, SSD storage, and developer-fri
 
 ---
 
-### Open source & side projects
-
-- **University results checker** — Real-time academic results search tool
-- **[Wapka Libraries](https://zuna.id/blog/category/wapka/)** — Documented 9 Wapka libraries (Server, Request, URL, etc.)
-- **Android dev tools** — Kotlin starter kits, build tooling
-
----
-
 ## Speaking & writing
 
 | Where | What |
