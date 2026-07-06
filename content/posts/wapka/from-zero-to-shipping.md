@@ -3,7 +3,7 @@ title: "From zero coding knowledge to shipping a platform"
 date: 2026-05-06
 lastmod: 2026-06-05
 draft: false
-description: "I learned to code by building a web platform from scratch, without formal training. Here is what that process actually looks like across two years of iteration."
+description: "I learned to code by building a web platform from scratch. Here is what that process actually looks like across two years of iteration."
 categories: ["Wapka"]
 tags: ["wapka", "founder-story", "learning-to-code"]
 author: "Jonayed Hossan Gazi"
@@ -40,7 +40,7 @@ In 2020, wapka.org became available. The brand was unified. The platform was rea
 
 ## The insight
 
-People ask what it takes to build something substantial without formal training.
+People ask what it takes to build something substantial from nothing.
 
 It takes clarity of vision. Knowing exactly what you are building toward. It takes consistency — working month after month without immediate feedback. And it takes a genuine connection to what you are creating — a reason deeper than curiosity.
 

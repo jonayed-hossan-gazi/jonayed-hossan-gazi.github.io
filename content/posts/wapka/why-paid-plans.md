@@ -10,7 +10,7 @@ author: "Jonayed Hossan Gazi"
 showToc: true
 ---
 
-For over five years, Wapka was completely free. No tiers. No limits. No credit card required. I funded it personally — savings, platform ad revenue, and contributions from community members who believed in the mission.
+For over five years, Wapka was completely free. No tiers. No limits. No credit card required. The platform was sustained through its own ad revenue and contributions from community members who believed in the mission.
 
 That worked until it didn't.
 

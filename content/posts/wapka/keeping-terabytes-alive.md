@@ -20,7 +20,7 @@ Most platforms show you a shiny dashboard. What you don't see is what happens be
 
 Users on Wapka upload everything. Some build simple blogs. Others build full media streaming sites serving terabytes of content. The file manager handles it all — but handling it at scale costs real money.
 
-For the first several years, Wapka was completely free. Every terabyte of storage, every gigabyte of bandwidth — I paid for it from personal savings, ad revenue from the platform itself, and contributions from community members who believed in what we were building together.
+For the first several years, Wapka was completely free. Every terabyte of storage, every gigabyte of bandwidth was covered by the platform's own revenue and contributions from community members who believed in what we were building together.
 
 ---
 
