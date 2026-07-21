@@ -1,5 +1,5 @@
 ---
-title: "How Wapka grew from zero to 100,000 sites"
+title: "The platform that refused to vanish — and how it came back"
 date: 2026-05-06
 lastmod: 2026-06-05
 draft: false

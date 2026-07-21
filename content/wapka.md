@@ -47,6 +47,6 @@ It combines a visual site builder, a server-side Lua scripting engine, backward-
 
 ## Read the story
 
-[How Wapka grew from zero to 100,000 sites →](/2026/05/how-wapka-grew/)
+[The platform that refused to vanish →](/2026/05/platform-that-refused-to-vanish/)
 
 [Why Lua? The architectural decision →](/2026/05/why-lua/)

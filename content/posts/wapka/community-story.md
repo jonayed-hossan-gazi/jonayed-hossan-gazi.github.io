@@ -55,5 +55,5 @@ This is not my platform. It is ours.
 ---
 
 **Continue reading:**
-[How Wapka grew from zero to 100,000 sites →](/2026/05/how-wapka-grew/)
+[The platform that refused to vanish →](/2026/05/platform-that-refused-to-vanish/)
 [Wapka: the complete review →](/2026/05/wapka-complete-review/)
