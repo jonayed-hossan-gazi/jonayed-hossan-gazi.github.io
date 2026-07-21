@@ -15,7 +15,7 @@ showToc: true
 
 ## Why Use Wapka’s Request Library?
 
-The Wapka Request Library, accessible via the `req` table, is a cornerstone for handling incoming HTTP requests in your Wapka projects. It provides detailed information about the request, including methods, query strings, headers, and uploaded files, enabling you to create responsive and interactive web applications. Combined with Wapka’s features like free SSL certificates, 100 GB of cloud storage, and a secure Lua Sandbox Environment, the Request Library makes it easy to process user input and deliver tailored content.
+The Wapka Request Library, accessible via the `req` table, is a cornerstone for handling incoming HTTP requests in your Wapka projects. It provides detailed information about the request, including methods, query strings, headers, and uploaded files, enabling you to create responsive and interactive web applications. Combined with Wapka’s features like free SSL certificates, 50 GB of cloud storage, and a secure Lua Sandbox Environment, the Request Library makes it easy to process user input and deliver tailored content.
 
 ## Overview of the Wapka Request Library
 

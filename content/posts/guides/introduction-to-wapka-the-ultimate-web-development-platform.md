@@ -39,7 +39,7 @@ Wapka simplifies domain management by offering **free sub-domains** for all user
 
 ### 3\. Cloud Storage and CDN
 
-Storage and speed are critical for modern web applications, and Wapka delivers on both fronts. With **100 GB of free cloud storage** , you can store files without worrying about limitations. Need more? Wapka offers terabytes of storage at an affordable price. Additionally, Wapka’s **Content Delivery Network (CDN)** ensures lightning-fast content delivery, improving user experience and site performance.
+Storage and speed are critical for modern web applications, and Wapka delivers on both fronts. With **50 GB of free cloud storage** , you can store files without worrying about limitations. Need more? Wapka offers terabytes of storage at an affordable price. Additionally, Wapka’s **Content Delivery Network (CDN)** ensures lightning-fast content delivery, improving user experience and site performance.
 
 ### 4\. Rapid Development with Themes and Templates
 

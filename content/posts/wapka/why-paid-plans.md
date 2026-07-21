@@ -30,7 +30,7 @@ The question was not whether to introduce paid tiers. The question was how to do
 
 The free tier had to remain meaningful. Not a demo. Not a trial. A genuinely useful tier that anyone — student, creator, hobbyist — could build on without paying a cent.
 
-100GB storage. Free SSL. Global CDN. Server-side scripting. Three sites. That is the free tier today. It serves tens of thousands of users who never pay a dollar.
+50GB storage. Free SSL. Global CDN. Server-side scripting. Three sites. That is the free tier today. It serves tens of thousands of users who never pay a dollar.
 
 Paid tiers unlock more: additional storage, more sites, dedicated compute, higher rate limits. Users who outgrow the free tier can scale up. Users who don't, don't.
 

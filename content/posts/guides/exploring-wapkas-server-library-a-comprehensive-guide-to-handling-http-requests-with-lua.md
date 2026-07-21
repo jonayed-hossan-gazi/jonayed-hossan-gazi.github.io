@@ -15,7 +15,7 @@ Wapka’s **server library** is a powerful tool within its [Lua Sandbox Environm
 
 ## Why Use Wapka’s Server Library?
 
-The server library is a cornerstone of Wapka’s Lua-based scripting environment, enabling developers to manage HTTP requests, customize server behavior, and deliver dynamic content. Combined with Wapka’s features like free SSL certificates, 100 GB of cloud storage, and a built-in HTTP server, the server library empowers developers to build everything from simple static sites to complex web applications. Its methods are easy to use, secure, and optimized for web development, making it suitable for beginners and experienced developers alike.
+The server library is a cornerstone of Wapka’s Lua-based scripting environment, enabling developers to manage HTTP requests, customize server behavior, and deliver dynamic content. Combined with Wapka’s features like free SSL certificates, 50 GB of cloud storage, and a built-in HTTP server, the server library empowers developers to build everything from simple static sites to complex web applications. Its methods are easy to use, secure, and optimized for web development, making it suitable for beginners and experienced developers alike.
 
 ## Overview of the Wapka Server Library
 

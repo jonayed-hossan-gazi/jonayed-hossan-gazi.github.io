@@ -15,7 +15,7 @@ Building a stunning website has never been easier with **Wapka** , a versatile [
 
 ## Why Use Wapka for HTML Templates and Proxy Configuration?
 
-Wapka empowers developers to deploy custom HTML templates quickly and efficiently, ensuring your website looks exactly as you envision without unwanted ads. Whether you’re building a static site or a hybrid of static and dynamic content, Wapka’s intuitive control panel and robust features like free SSL certificates, 100 GB of cloud storage, and reverse proxy support make it an ideal choice. By combining HTML templates with Wapka’s dynamic features, you can create a professional-grade website tailored to your needs.
+Wapka empowers developers to deploy custom HTML templates quickly and efficiently, ensuring your website looks exactly as you envision without unwanted ads. Whether you’re building a static site or a hybrid of static and dynamic content, Wapka’s intuitive control panel and robust features like free SSL certificates, 50 GB of cloud storage, and reverse proxy support make it an ideal choice. By combining HTML templates with Wapka’s dynamic features, you can create a professional-grade website tailored to your needs.
 
 ## Step-by-Step Guide to Installing an HTML Template on Wapka
 
@@ -90,7 +90,7 @@ After configuring the reverse proxy, test your website to ensure requests are ro
 By combining HTML templates with Wapka’s advanced features, you can:
 
   * **Create Ad-Free Websites** : Your site looks exactly as designed, with no intrusive ads.
-  * **Scale Easily** : Use Wapka’s 100 GB free cloud storage and CDN for fast, reliable performance.
+  * **Scale Easily** : Use Wapka’s 50 GB free cloud storage and CDN for fast, reliable performance.
   * **Enhance Functionality** : Mix static and dynamic content with Lua scripting and C/C++ libraries.
   * **Optimize Performance** : Leverage NGINX reverse proxy for load balancing and seamless content integration.
   * **Ensure Security** : Benefit from free SSL certificates and anti-DDoS protection.

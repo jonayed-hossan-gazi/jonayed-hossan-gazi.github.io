@@ -22,7 +22,7 @@ With Wapka managed, everything works out of the box. No servers to provision. No
 
 | You get | What it means |
 |---|---|
-| 100GB free storage | No hosting bills. Ever. |
+| 50GB free storage | No hosting bills. Ever. |
 | Automatic SSL | HTTPS works instantly. Let's Encrypt, auto-renewed. |
 | Global CDN | Assets served from the nearest edge. Fast worldwide. |
 | DDoS protection | Filtered at the network edge. Zero config. |
@@ -65,4 +65,4 @@ The managed cloud is the path of least resistance. Self-hosting is the path of m
 
 **Continue reading:**
 [The detach/reattach protocol →](/2026/05/detach-reattach/)
-[100GB free storage + scripting for $0 →](/2026/05/free-tier-economics/)
+[50GB free storage + scripting for $0 →](/2026/05/free-tier-economics/)

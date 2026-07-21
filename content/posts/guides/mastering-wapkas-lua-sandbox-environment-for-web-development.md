@@ -15,7 +15,7 @@ showToc: true
 
 ## Why Use Wapka’s Lua Sandbox Environment?
 
-Wapka’s Lua Sandbox Environment is tailored for web development, offering a secure and controlled scripting experience. By combining Lua’s lightweight and flexible scripting capabilities with Wapka’s robust infrastructure—such as free SSL certificates, 100 GB of cloud storage, and a built-in HTTP server—developers can create dynamic, high-performance web applications. Whether you’re a beginner or an experienced developer, Wapka’s Lua Sandbox makes it easy to add interactivity and advanced functionality to your websites.
+Wapka’s Lua Sandbox Environment is tailored for web development, offering a secure and controlled scripting experience. By combining Lua’s lightweight and flexible scripting capabilities with Wapka’s robust infrastructure—such as free SSL certificates, 50 GB of cloud storage, and a built-in HTTP server—developers can create dynamic, high-performance web applications. Whether you’re a beginner or an experienced developer, Wapka’s Lua Sandbox makes it easy to add interactivity and advanced functionality to your websites.
 
 ## Overview of Wapka’s Lua Sandbox Environment
 
@@ -78,7 +78,7 @@ Wapka’s Lua Sandbox is designed to balance security, performance, and flexibil
 Ready to harness the power of Lua in your Wapka projects? Follow these steps:
 
   1. **Create a Wapka Account** : Sign up for free at <https://wapka.org> to access the platform.
-  2. **Create a Project** : Use the Wapka control panel to set up a new project with a free sub-domain and 100 GB of cloud storage.
+  2. **Create a Project** : Use the Wapka control panel to set up a new project with a free sub-domain and 50 GB of cloud storage.
   3. **Access Lua Scripting** : Navigate to the scripting section in the control panel to start writing Lua code using the sandbox environment.
   4. **Explore Documentation** : Visit the [Wapka blog](https://wapka.org) for tutorials on Lua scripting, library usage, and best practices.
   5. **Consider a Premium Plan** : For enhanced resources and performance, subscribe to a premium package to unlock more processing power and execution time.

@@ -1,9 +1,9 @@
 ---
-title: "100GB free storage + server-side scripting for $0 — here is how"
+title: "50GB free storage + server-side scripting for $0 — here is how"
 date: 2026-05-06
 lastmod: 2026-06-05
 draft: false
-description: "100GB storage, server-side scripting, SSL, and CDN — all free. This is not a loss leader. Lua efficiency makes it structurally impossible for competitors to match."
+description: "50GB storage, server-side scripting, SSL, and CDN — all free. This is not a loss leader. Lua efficiency makes it structurally impossible for competitors to match."
 categories: ["Wapka"]
 tags: ["wapka", "free-tier", "economics", "lua"]
 author: "Jonayed Hossan Gazi"
@@ -18,7 +18,7 @@ People sometimes ask if this is a loss leader — a marketing tactic to acquire 
 
 ## The math
 
-A standard VPS costs roughly $5 per month. It gives you 25GB of storage and enough CPU to serve a few hundred concurrent users. To offer 100GB of storage to a single user, you would need a $20+ server — and that is before factoring in bandwidth costs.
+A standard VPS costs roughly $5 per month. It gives you 25GB of storage and enough CPU to serve a few hundred concurrent users. To offer 50GB of storage to a single user, you would need a $20+ server — and that is before factoring in bandwidth costs.
 
 Wapka serves tens of thousands of users on shared infrastructure. The key differentiator is not discounted hardware. It is software efficiency.
 

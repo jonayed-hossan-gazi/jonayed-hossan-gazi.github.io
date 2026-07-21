@@ -47,7 +47,7 @@ These numbers are not marketing — they are physics. Lua 5.1 is one of the fast
 
 The free tier exists because Lua makes it possible.
 
-100GB storage. Free SSL. Global CDN. Server-side scripting. At $0.
+50GB storage. Free SSL. Global CDN. Server-side scripting. At $0.
 
 If Wapka ran on Node.js or Python, the server costs would make this tier impossible. You can't give away compute that costs real money per request. But when each script execution costs essentially nothing, you can.
 

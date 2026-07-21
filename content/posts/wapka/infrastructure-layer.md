@@ -31,4 +31,4 @@ This infrastructure layer exists so that community members — creators, student
 
 **Continue reading:**
 [Self-host vs managed: honest tradeoffs →](/2026/05/self-host-vs-managed/)
-[100GB free storage + scripting for $0 →](/2026/05/free-tier-economics/)
+[50GB free storage + scripting for $0 →](/2026/05/free-tier-economics/)

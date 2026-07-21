@@ -36,7 +36,7 @@ This efficiency cascades through every layer of the platform:
 - Faster response times
 - Viable free tier
 
-The last point is the most important. Without Lua's efficiency, the free tier — 100GB storage, SSL, CDN, scripting — simply would not exist. The math would not work.
+The last point is the most important. Without Lua's efficiency, the free tier — 50GB storage, SSL, CDN, scripting — simply would not exist. The math would not work.
 
 ---
 
@@ -50,4 +50,4 @@ These are not hypotheticals. They are production applications built by community
 
 **Continue reading:**
 [Why Lua? The architectural decision →](/2026/05/why-lua/)
-[100GB free storage + scripting for $0 →](/2026/05/free-tier-economics/)
+[50GB free storage + scripting for $0 →](/2026/05/free-tier-economics/)

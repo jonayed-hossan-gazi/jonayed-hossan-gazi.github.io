@@ -3,7 +3,7 @@ title: "How to Create a Wapka Project: A Step-by-Step Guide"
 date: 2024-01-15
 lastmod: 2025-06-12
 draft: false
-description: "Learn how to create a Wapka project with this step-by-step guide. Discover Wapka’s free plan, 100 GB cloud storage, and easy-to-use control panel for web development."
+description: "Learn how to create a Wapka project with this step-by-step guide. Discover Wapka’s free plan, 50 GB cloud storage, and easy-to-use control panel for web development."
 categories: ["Guides"]
 tags: ["CMS", "create Wapka project", "free cloud storage", "free SSL", "Lua scripting", "starter kits", "Wapka project", "Wapka tutorial", "web development"]
 author: "Jonayed Hossan Gazi"
@@ -15,7 +15,7 @@ Ready to build your next web application with **Wapka**? As a powerful [web deve
 
 ## Why Create a Project with Wapka?
 
-Wapka offers a seamless development experience with features like a built-in HTTP web server, free SSL certificates, 100 GB of free cloud storage, and a user-friendly control panel. With Wapka, you can focus on building your application while the platform handles the technical details. Plus, the **free plan** allows you to create up to **five projects** at no cost, making it perfect for beginners and seasoned developers alike.
+Wapka offers a seamless development experience with features like a built-in HTTP web server, free SSL certificates, 50 GB of free cloud storage, and a user-friendly control panel. With Wapka, you can focus on building your application while the platform handles the technical details. Plus, the **free plan** allows you to create up to **five projects** at no cost, making it perfect for beginners and seasoned developers alike.
 
 ## Step-by-Step Guide to Creating a Wapka Project
 
@@ -46,7 +46,7 @@ Wapka offers **free sub-domains** for all users, making it easy to get started w
 
 Wapka’s **free plan** is perfect for beginners, allowing you to create up to **five projects** at no cost. This plan includes:
 
-  * **100 GB of cloud storage** for your files.
+  * **50 GB of cloud storage** for your files.
   * **20 MB memory limit** for script execution.
 
 Select the free plan to get started, or explore premium options for additional storage and advanced features.
@@ -70,7 +70,7 @@ Congratulations! Your Wapka project is now live. To make the most of the platfor
 
 ## Why Wapka is Perfect for Your Next Project
 
-Wapka’s combination of ease of use, powerful features, and affordability makes it a standout choice for web development. With **100 GB of free cloud storage** , a **built-in HTTP server** , and support for rapid development through themes and templates, Wapka empowers you to create professional-grade web applications without breaking the bank.
+Wapka’s combination of ease of use, powerful features, and affordability makes it a standout choice for web development. With **50 GB of free cloud storage** , a **built-in HTTP server** , and support for rapid development through themes and templates, Wapka empowers you to create professional-grade web applications without breaking the bank.
 
 ## Conclusion
 

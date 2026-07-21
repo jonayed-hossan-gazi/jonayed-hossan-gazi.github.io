@@ -20,7 +20,7 @@ Choosing a web platform is personal. It depends on what you are building, your t
 |---|---|---|
 | **Visual builder** | Excellent | Excellent |
 | **Server-side code** | None | Full Lua scripting engine |
-| **Free tier** | Wix branding, limited storage | 100GB storage, full features |
+| **Free tier** | Wix branding, limited storage | 50GB storage, full features |
 | **Open source** | No | Yes — full codebase on GitHub |
 | **Self-hosting** | Impossible | Docker, one command |
 | **Best for** | Simple business sites, portfolios | Dynamic sites, apps, creators who want to grow |
@@ -52,7 +52,7 @@ Choosing a web platform is personal. It depends on what you are building, your t
 | **Focus** | Frontend + serverless functions | Full stack + CMS |
 | **Visual builder** | None | Full drag-and-drop |
 | **Database** | External (Supabase, PlanetScale) | Built-in NoSQL (Dataset) |
-| **File storage** | External (S3, Cloudinary) | Built-in, 100GB+ free |
+| **File storage** | External (S3, Cloudinary) | Built-in, 50GB+ free |
 | **Server-side language** | JavaScript, TypeScript, Go | Lua |
 | **Open source** | No — proprietary edge network | Yes |
 | **Self-hosting** | No | Yes, Docker |

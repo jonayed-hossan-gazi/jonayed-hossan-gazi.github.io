@@ -23,7 +23,7 @@ Wapka removes every single one of those barriers.
 - A visual builder to create pages instantly
 - Server-side scripting with Lua — learn backend logic without setting up a server
 - A built-in NoSQL database (Dataset) with a visual browser
-- 100GB of storage
+- 50GB of storage
 - Free SSL certificates
 - Global CDN
 - Pre-built modules: forums, galleries, user authentication, chat

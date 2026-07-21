@@ -20,7 +20,7 @@ It combines a visual site builder, a server-side Lua scripting engine, backward-
 - **Visual builder + server-side code** — drag-and-drop UI with full backend scripting. Most platforms do one or the other. Wapka does both.
 - **10 years of backward compatibility** — code written in 2013 still runs unchanged. You grow, the platform evolves around you. No forced migrations.
 - **Open source + self-hostable** — the entire codebase is on GitHub. Docker compose up. Detach your site, run it standalone, reattach anytime. Zero lock-in.
-- **Free tier that's actually free** — 100GB storage, SSL, CDN, server-side scripting. No credit card. Lua makes the economics work.
+- **Free tier that's actually free** — 50GB storage, SSL, CDN, server-side scripting. No credit card. Lua makes the economics work.
 - **AI-ready** — MCP protocol support. AI agents can read, modify, and manage your site.
 
 ---

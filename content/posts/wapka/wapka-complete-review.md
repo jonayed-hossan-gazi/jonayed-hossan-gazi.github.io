@@ -59,7 +59,7 @@ This is the opposite of vendor lock-in. Most platforms build walls. Wapka builds
 |---|---|---|
 | **Concept** | 10/10 | Open-source, self-hostable, backward-compatible, AI-ready |
 | **Architecture** | 9/10 | Lua sandboxing is the key insight. Three-era compatibility is unique. |
-| **Infrastructure** | 9/10 | 100GB free tier with SSL and CDN is unmatched. |
+| **Infrastructure** | 9/10 | 50GB free tier with SSL and CDN is unmatched. |
 | **Freedom** | 10/10 | Raw DB export. Docker self-host. No lock-in. |
 | **AI readiness** | 10/10 | MCP protocol. Markdown-native docs. Future-facing. |
 | **Developer experience** | 7/10 | Lua ecosystem is niche. Self-host docs could deepen. |
