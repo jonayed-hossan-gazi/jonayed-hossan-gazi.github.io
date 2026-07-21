@@ -47,5 +47,5 @@ This is the platform the community helped shape. People who contributed ideas, t
 ---
 
 **Continue reading:**
-[Why compute costs near zero →](/2026/05/luajit-economics/)
-[Self-host vs managed →](/2026/05/self-host-vs-managed/)
+[Why Lua? The technical decision →](/2026/05/why-lua/)
+[The doors open both ways →](/2026/05/doors-open-both-ways/)

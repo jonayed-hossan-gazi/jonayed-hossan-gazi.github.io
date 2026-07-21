@@ -10,6 +10,8 @@ author: "Jonayed Hossan Gazi"
 showToc: true
 ---
 
+The community has built applications on Lua that show what the language enables: REST APIs serving thousands of requests, real-time chat systems, media processing pipelines — all running on shared infrastructure, built by people who started as beginners. Their work proved the architecture was right.
+
 Every platform makes a bet on its technology stack. Wapka's bet was Lua. Here's why it wasn't just a good choice — it was the only choice that made the entire platform economically possible.
 
 ---
@@ -89,5 +91,5 @@ And because the platform is open source and self-hostable, you can always connec
 ---
 
 **Continue reading:**
-[You can leave Wapka anytime — and that is why people stay →](/2026/05/doors-open-both-ways/)
-[A decade of code, zero forced migrations →](/2026/05/decade-of-compatibility/)
+[The doors open both ways →](/2026/05/doors-open-both-ways/)
+[Wapka: the complete review →](/2026/05/wapka-complete-review/)

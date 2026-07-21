@@ -10,6 +10,8 @@ author: "Jonayed Hossan Gazi"
 showToc: true
 ---
 
+The community that shaped Wapka comes from all skill levels. The visual builder was refined based on feedback from non-technical creators. The Lua scripting engine was extended based on feature requests from developers. The open source model was adopted because users asked for it. Every feature was shaped by the people who actually use it.
+
 Choosing a web platform is personal. It depends on what you are building, your technical skill, your budget, and how much control you want. This comparison is honest — including where Wapka is not the right choice.
 
 ---

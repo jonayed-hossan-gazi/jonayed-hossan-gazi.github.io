@@ -10,6 +10,8 @@ author: "Jonayed Hossan Gazi"
 showToc: true
 ---
 
+People from different countries and backgrounds have already taken this path. Some run self-hosted instances for their communities. Others test the latest builds and report issues. The open source repository has contributions from around the world — each one improving the platform for everyone.
+
 Most platforms build walls. Terms of service. Proprietary data formats. Export processes that technically exist but practically don't work. The message is always the same: you can join, but leaving will cost you.
 
 Wapka takes the opposite approach. You can leave anytime. And that counterintuitive decision is exactly why people choose to stay.

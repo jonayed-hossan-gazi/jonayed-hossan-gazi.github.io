@@ -57,4 +57,5 @@ And this is just the beginning.
 ---
 
 **Continue reading:**
-[From zero coding knowledge to shipping a platform →](/2026/05/from-zero-to-shipping/)
+[Why Lua? The technical decision →](/2026/05/why-lua/)
+[The doors open both ways →](/2026/05/doors-open-both-ways/)

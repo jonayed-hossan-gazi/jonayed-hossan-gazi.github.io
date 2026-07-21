@@ -10,6 +10,8 @@ author: "Jonayed Hossan Gazi"
 showToc: true
 ---
 
+Across the world, people have contributed to making this platform what it is. Not through marketing campaigns or official partnerships, but by building on it, reporting bugs, suggesting features, creating modules, and helping each other learn. Wapka was not built by one person. It was built by everyone who saw value in a platform that lets you own your work.
+
 Wapka is an open-source, all-in-one web development platform that combines a visual site builder, a server-side Lua scripting engine, backward-compatible legacy support, and a full REST API. It has existed for over a decade, evolving through three eras without breaking anything built in the first one.
 
 It is the only platform that simultaneously serves absolute beginners, intermediate users, advanced developers, and AI agents — without requiring migration at any stage.

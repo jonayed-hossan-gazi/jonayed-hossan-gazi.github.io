@@ -56,5 +56,4 @@ This is not my platform. It is ours.
 
 **Continue reading:**
 [How Wapka grew from zero to 100,000 sites →](/2026/05/how-wapka-grew/)
-[What 10 years of building teaches you →](/2026/05/ten-years-of-building/)
-[The responsibility of hosting data →](/2026/05/responsibility-of-hosting/)
+[Wapka: the complete review →](/2026/05/wapka-complete-review/)

@@ -51,4 +51,4 @@ The void was real. The community proved it.
 
 **Continue reading:**
 [Wapka vs WordPress vs Wix vs Vercel →](/2026/05/wapka-vs-everyone/)
-[From Wapka user to Wapka developer →](/2026/05/user-to-developer/)
+[The community story →](/2026/05/community-story/)
