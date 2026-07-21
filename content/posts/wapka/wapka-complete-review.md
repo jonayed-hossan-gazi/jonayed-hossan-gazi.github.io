@@ -3,6 +3,7 @@ title: "Wapka: the complete platform review"
 date: 2026-05-06
 lastmod: 2026-06-05
 draft: false
+weight: 10
 description: "An open-source, AI-ready web platform combining a visual builder, Lua scripting, and backward-compatible legacy support. Reviewed across seven categories with an honest verdict."
 categories: ["Wapka"]
 tags: ["wapka", "review", "platform", "open-source", "website-builder"]

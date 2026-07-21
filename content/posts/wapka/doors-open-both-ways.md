@@ -3,6 +3,7 @@ title: "The doors open both ways — why Wapka is built for freedom"
 date: 2026-05-06
 lastmod: 2026-06-05
 draft: false
+weight: 10
 description: "Open source on GitHub. Data export in JSON. Docker self-hosting for enterprise. The platform gives you every path to leave — and that freedom builds genuine trust."
 categories: ["Wapka"]
 tags: ["wapka", "open-source", "self-hosting", "docker", "freedom"]

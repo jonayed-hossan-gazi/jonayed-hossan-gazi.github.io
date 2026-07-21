@@ -3,6 +3,7 @@ title: "Between Wix and Vercel there is a void — here is what fills it"
 date: 2026-05-06
 lastmod: 2026-06-05
 draft: false
+weight: 10
 description: "The web platform market has two extremes: walled gardens for beginners and DevOps for developers. Between them is a void. Wapka was built to fill it."
 categories: ["Wapka"]
 tags: ["wapka", "market", "positioning", "low-code"]

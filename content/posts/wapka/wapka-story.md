@@ -3,6 +3,7 @@ title: "The Wapka story: building a platform that outgrew its origins"
 date: 2026-05-06
 lastmod: 2026-06-05
 draft: false
+weight: 10
 description: "A platform once served millions. When it closed, I chose to rebuild it as open source. Today it serves creators, students, and developers worldwide."
 categories: ["Wapka"]
 tags: ["wapka", "founder-story", "origin"]

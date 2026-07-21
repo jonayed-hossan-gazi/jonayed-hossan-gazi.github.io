@@ -3,6 +3,7 @@ title: "50GB free storage + server-side scripting for $0 — here is how"
 date: 2026-05-06
 lastmod: 2026-06-05
 draft: false
+weight: 10
 description: "50GB storage, server-side scripting, SSL, and CDN — all free. This is not a loss leader. Lua efficiency makes it structurally impossible for competitors to match."
 categories: ["Wapka"]
 tags: ["wapka", "free-tier", "economics", "lua"]

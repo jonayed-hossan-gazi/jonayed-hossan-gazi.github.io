@@ -3,6 +3,7 @@ title: "Why Wapka runs on Lua — the architectural decision behind it"
 date: 2026-05-06
 lastmod: 2026-06-05
 draft: false
+weight: 10
 description: "Choosing Lua for Wapka's scripting engine wasn't a compromise. It was the only correct engineering decision for a shared hosting platform at scale."
 categories: ["Wapka"]
 tags: ["wapka", "lua", "lusandbox", "architecture", "sandboxing"]

@@ -3,6 +3,7 @@ title: "Built by people around the world: the Wapka community story"
 date: 2026-05-06
 lastmod: 2026-06-05
 draft: false
+weight: 10
 description: "Wapka is not one person's creation. It is the sum of ideas, effort, and contributions from thousands of people across the world."
 categories: ["Wapka"]
 tags: ["wapka", "community", "collaboration", "global"]
