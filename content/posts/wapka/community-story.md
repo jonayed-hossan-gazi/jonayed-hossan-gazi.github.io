@@ -55,5 +55,5 @@ This is not my platform. It is ours.
 ---
 
 **Continue reading:**
-[The platform that refused to vanish →](/2026/05/platform-that-refused-to-vanish/)
+[The Wapka story: building a platform that outgrew its origins →](/2026/05/wapka-story/)
 [Wapka: the complete review →](/2026/05/wapka-complete-review/)

@@ -1,9 +1,9 @@
 ---
-title: "The platform that refused to vanish — and how it came back"
+title: "The Wapka story: building a platform that outgrew its origins"
 date: 2026-05-06
 lastmod: 2026-06-05
 draft: false
-description: "A web platform ended its run. Rather than move on, I chose to rebuild it. Today over 100,000 sites run on the open-source platform that emerged from that decision."
+description: "A platform once served millions. When it closed, I chose to rebuild it as open source. Today it serves creators, students, and developers worldwide."
 categories: ["Wapka"]
 tags: ["wapka", "founder-story", "origin"]
 author: "Jonayed Hossan Gazi"
